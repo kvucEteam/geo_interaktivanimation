@@ -8,4 +8,7 @@ $(document).ready(function() {
             console.log("anim complete");
         });
     });
+
+    $("svg").svgPanZoom({});
+
 });
