@@ -1,0 +1,9 @@
+.svg_img{
+    position: absolute;
+
+}
+
+.svg_container{
+    border: 2px solid #eee;
+    position: relative;
+}
