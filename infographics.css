@@ -3,7 +3,59 @@
 
 }
 
+.landscape_container{
+	background-color: #FFF17E;
+}
+
 .svg_container{
     border: 2px solid #eee;
     position: relative;
 }
+
+.landscape_container{
+	overflow: hidden;
+	height:650px;
+	position:relative;
+}
+
+.svgImage{
+	position: absolute;
+	
+	z-index: 2;
+}
+
+.btn-bakke{
+	z-index:10;
+	position: absolute;
+	left:1700px;
+	top:300px;
+
+}
+
+.btn-by{
+	z-index:10;
+	position: absolute;
+	left:670px;
+	top:310px;
+
+}
+
+.btn-mark{
+	z-index:10;
+	position: absolute;
+	left:2420px;
+	top:611px;
+
+}
+
+.gif{
+
+	z-index:10;
+	position: absolute;
+	left:2300px;
+	top:50px;
+	}
+
+	.sun{
+		height: 80px;
+	}
