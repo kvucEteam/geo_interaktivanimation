@@ -16,9 +16,12 @@ $(document).ready(function() {
 
 
 window.setInterval(function() {
-    var offset = $(".svgImage").offset(); // - $(".svg_landscape").offset().left;
 
-    console.log(offset.left + ", " + offset.top);
+
+
+
+
+
 }, 100);
 
 
@@ -31,7 +34,23 @@ function infoGfx() {
 (function() {
     var $panzoom = $(".svg_landscape").panzoom({
         minScale: 1,
-        maxScale: 3,
+        maxScale: 5,
+        onEnd: function() {
+            var offset = $(".svg_landscape").offset();
+            var parent_offset = $(".landscape_container").offset();
+
+            var svg_offset_left = offset.left - parent_offset.left;
+            var svg_offset_top = offset.top - parent_offset.top;
+
+
+
+            //console.log("OFFSET: x:" + offset.left + ", y: " + offset.top);
+            //console.log("PARENT_OFFSET x:" + parent_offset.left + ", y: " + parent_offset.top);
+            console.log("SVGOFFSET: x:" + svg_offset_left + ", y:"+ svg_offset_top);
+            console.log($(".svgImage").width());
+
+
+        },
     });
     $panzoom.parent().on('mousewheel.focal', function(e) {
         e.preventDefault();

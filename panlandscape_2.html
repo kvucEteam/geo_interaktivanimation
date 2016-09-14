@@ -14,20 +14,24 @@
 <body>
     <div class="container-fluid">
         <div class="col-xs-12">
-            <h1>Inforgraphics_test</h1>
-            <div class="svg_container">
-                <div class="col-sm-12 col-md-12 svg_img svg_bgr">
-                    <img src="svg/nedsivning_zoom01_baggrund.svg" class="img-responsive" alt="Cinque Terre">
+            <h1>Panable landscape</h1>
+            <section id="auto-contain">
+                <div class="panzoom-parent" style="overflow: hidden; position: relative;">
+                    <img class="panzoom" src="http://clipartsy.com/Giki/tagdelic.net/L/Landscape.svg">
                 </div>
-                <div class="col-sm-12 col-md-12 svg_img">
-                    <img src="svg/nedsivning_zoom01_forgrund.svg" class="img-responsive" alt="Cinque Terre">
-                </div>
-            </div>
         </div>
+        <div class="buttons">
+            <button class="zoom-in">Zoom In</button>
+            <button class="zoom-out">Zoom Out</button>
+            <input type="range" class="zoom-range" step="0.05" min="0.5" max="6">
+            <button class="reset">Reset</button>
+        </div>
+        </section>
     </div>
     <script src="../library/vendor_scripts.js"></script>
     <script src="../library/custom_scripts.js"></script>
-    <script src="infographics.js"></script>
+    <script src="jquery.panzoom.min.js"></script>
+    <script src="landscape_2.js"></script>
     <script type="text/javascript">
     $(document).ready(function() {
         one_line_footer();

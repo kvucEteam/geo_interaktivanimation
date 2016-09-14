@@ -2,6 +2,11 @@
     position: absolute;
 
 }
+.panzoom-parent{
+		overflow: hidden;
+	height:650px;
+	position:relative;
+}
 
 .landscape_container{
 	background-color: #FFF17E;
