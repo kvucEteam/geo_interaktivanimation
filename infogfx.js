@@ -5,6 +5,7 @@
     $(".back").click(zoomback);
 
     var $panzoom = $(".svg_landscape").panzoom({
+        contain: false
 
     });
 
@@ -18,10 +19,13 @@
     };
 
     function zoomback(e) {
+        $panzoom.panzoom("reset");
+
+        /*console.log($panzoom.css("margin-left"));
         $panzoom.panzoom('zoom', true, {
             increment: 1,
             animate: true
-        });
+        });*/
     };
 
 

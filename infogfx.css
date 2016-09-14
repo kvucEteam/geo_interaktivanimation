@@ -1,0 +1,63 @@
+.svg_img{
+    position: absolute;
+
+}
+.panzoom-parent{
+	overflow: hidden;
+	height:650px;
+	position:relative;
+}
+
+.landscape_container{
+	background-color: #e5d352;
+}
+
+.svg_container{
+    border: 2px solid #eee;
+    position: relative;
+}
+
+.landscape_container{
+	overflow: hidden;
+	position:relative;
+}
+
+.svgImage{
+	z-index: 2;
+}
+
+.btn-sol{
+	z-index:10;
+	position: absolute;
+	left:300px;
+	top:350px;
+
+}
+
+.btn-maage{
+	z-index:10;
+	position: absolute;
+	left:150px;
+	top:190px;
+
+}
+
+.btn-mark{
+	z-index:10;
+	position: absolute;
+	left:420px;
+	top:611px;
+
+}
+
+.gif{
+
+	z-index:10;
+	position: absolute;
+	left:300px;
+	top:300px;
+	}
+
+	.sun{
+		height: 80px;
+	}
