@@ -1,63 +1,74 @@
-.svg_img{
+.svg_img {
     position: absolute;
-
-}
-.panzoom-parent{
-	overflow: hidden;
-	height:650px;
-	position:relative;
 }
 
-.landscape_container{
-	background-color: #e5d352;
-}
-
-.svg_container{
-    border: 2px solid #eee;
+.panzoom-parent {
+    overflow: hidden;
+    height: 650px;
     position: relative;
 }
 
-.landscape_container{
-	overflow: hidden;
-	position:relative;
-}
-
-.svgImage{
-	z-index: 2;
-}
-
-.btn-sol{
-	z-index:10;
-	position: absolute;
-	left:300px;
-	top:350px;
+.landscape_container {
+    background-color: #e5d352;
 
 }
 
-.btn-maage{
-	z-index:10;
-	position: absolute;
-	left:100px;
-	top:100px;
-
+.svg_container {
+    border: 2px solid #eee;
+    position: relative;
+        -webkit-user-select: none;
+    /* Chrome all / Safari all */
+    -moz-user-select: none;
+    /* Firefox all */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
 }
 
-.btn-mark{
-	z-index:10;
-	position: absolute;
-	left:420px;
-	top:611px;
-
+.landscape_container {
+    overflow: hidden;
+    position: relative;
 }
 
-.gif{
+.svgImage {
+    z-index: 2;
+}
 
-	z-index:10;
-	position: absolute;
-	left:300px;
-	top:300px;
-	}
+.btn-sol {
+    z-index: 10;
+    position: absolute;
+    left: 61.5%;
+    top: 3%;
+}
 
-	.sun{
-		height: 80px;
-	}
+.btn-maage {
+    z-index: 10;
+    position: absolute;
+    left: 8%;
+    top: 8%;
+}
+
+.btn-back {
+    z-index: 10;
+    position: absolute;
+    left: 20px;
+    top: 0;
+}
+
+.btn-mark {
+    z-index: 10;
+    position: absolute;
+    left: 42%;
+    top: 72%;
+}
+
+.gif {
+    z-index: 9;
+    position: absolute;
+    left: 60%;
+    top: 6%;
+}
+
+.sun {
+    height: 80px;
+}
