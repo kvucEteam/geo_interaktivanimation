@@ -9,6 +9,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="../library/css/styles.css" type="text/css">
     <link rel="stylesheet" href="infogfx.css" type="text/css">
+    <link href="https://gitcdn.github.io/bootstrap-toggle/2.2.2/css/bootstrap-toggle.min.css" rel="stylesheet">
 </head>
 
 <body>
@@ -18,28 +19,59 @@
             <div class="landscape_container">
                 <div class="svg_landscape">
                     <div class="svgImage">
-                        
                     </div>
                     <img src="svg/svg_bG_01.svg" />
-                        <span class="btn btn-xs btn-primary btn-sol btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Sol</span>
-                        <span class="btn btn-xs btn-primary btn-maage btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Måge</span>
-                        <span class="btn btn-xs btn-primary btn-mark btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Vand</span>
-                        <span class="gif"><img src="svg/sun.gif" class="sun" /></span>
+                    <span class="btn btn-xs btn-default btn-sol btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Sol</span>
+                    <span class="btn btn-xs btn-default btn-maage btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Måge</span>
+                    <span class="btn btn-xs btn-default btn-mark btn_info_gfx"><span class="glyphicon glyphicon-search"> </span> Vand</span>
+                    <span class="gif"><img src="svg/sun.gif" class="sun" /></span>
                 </div>
-                <div class="btn-lg btn-danger btn-back"><span class="glyphicon glyphicon-chevron-down"> </span></div>
+                <div class="btn-lg btn-danger btn-back">Tilbage <span class="glyphicon glyphicon-chevron-down"> </span></div>
+                  <div class="zoomedIn_container">
+                  <h1>
+                <span class="label label-default zoomedTitle">OST</span>
+                </h1></div>
             </div>
-            
-        </div>
-    </div>
-    <script src="../library/vendor_scripts.js"></script>
-    <script src="../library/custom_scripts.js"></script>
-    <script src="jquery.panzoom.min.js"></script>
-    <script src="infogfx.js"></script>
-    <script type="text/javascript">
-    $(document).ready(function() {
-        one_line_footer();
-    });
-    </script>
+          
+                    <div class=gui_container>
+                        <h4>   <div class="btn btn-info btn-sm btn-view-toggle">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" data-size="mini" checked data-toggle="toggle"> Kulstofkredsløbet
+                    </label>
+                </div>
+                <br/>
+                <div class="btn btn-info btn-sm btn-view-toggle">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" data-size="mini" checked data-toggle="toggle"> Undersøg detaljer
+                    </label>
+                </div>
+                <br/>
+                <div class="btn btn-info btn-sm btn-view-toggle">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" data-size="mini" checked data-toggle="toggle"> Sfærer
+                    </label>
+                </div>
+                <br/>
+                <div class="btn btn-info btn-sm btn-view-toggle">
+                    <label class="checkbox-inline">
+                        <input type="checkbox" data-size="mini" checked data-toggle="toggle"> Menneskelig påvirkning
+                    </label>
+                </div>
+                
+                </h4>
+                    </div>
+                </div>
+            </div>
+            <script src="../library/vendor_scripts.js"></script>
+            <script src="../library/custom_scripts.js"></script>
+            <script src="https://gitcdn.github.io/bootstrap-toggle/2.2.2/js/bootstrap-toggle.min.js"></script>
+            <script src="jquery.panzoom.min.js"></script>
+            <script src="infogfx.js"></script>
+            <script type="text/javascript">
+            $(document).ready(function() {
+                one_line_footer();
+            });
+            </script>
 </body>
 
 </html>
