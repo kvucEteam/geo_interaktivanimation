@@ -1,4 +1,4 @@
-var active_tekst;
+var active_zoom;
 var zoomed = false;
 
 
@@ -24,7 +24,10 @@ $(document).ready(function() {
     detaljer();
 
     $('.btn_info_gfx').on('click touchstart', function(e) {
-        active_tekst = $(this).text();
+
+        active_zoom = $('.btn_info_gfx').index(this)
+//        active_zoom = $(this).index("detalje_label");
+        console.log("as: " + active_zoom);
         if (e.type == 'click') {
             console.log('Mouse Click');
             zoomIn(e);
@@ -62,6 +65,8 @@ function detaljer() {
 
 
 function zoomIn(e) {
+
+    var zp = jsonData.zoom_punkter[active_zoom];
     //
     $panzoom.panzoom('zoom', false, {
         increment: 2.5,
@@ -72,10 +77,11 @@ function zoomIn(e) {
     $(".btn-back").fadeIn(1000).click(zoomOut);
     zoomed = true;
 
-    $(".zoomedIn_container").fadeIn().append("<h1>Zoomed IN</h1>");
-
-    $(".zoomedTitle").html("Zoom på: " + active_tekst);
-
+    $(".zoomedIn_container").fadeIn()
+    $(".zoomTitle").html(zp.header);
+    $(".zoom_pic").attr("src", zp.zoom_gif);
+    $(".exp_header").html(zp.tekst_1[0]);
+    $(".exp_tekst").html(zp.tekst_1[1]);
     $(".gui_container").fadeOut();
     $(".btn_info_gfx").fadeOut();
 };
