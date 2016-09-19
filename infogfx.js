@@ -1,12 +1,27 @@
-    //var xpos = -Math.abs(($(".svgImage").width() - $(".svg_landscape").width()) / 2);
-    //$(".svgImage").css("left", xpos)
+var active_tekst;
+var zoomed = false;
 
-    var zoomed = false;
+
+var $panzoom = $(".svg_landscape").panzoom({
+    panOnlyWhenZoomed: true,
+    onPan: function() {
+        if (zoomed == false) {
+            $panzoom.panzoom("reset");
+        }
+        console.log("Zoomed: " + zoomed);
+    },
+});
+
+
+$(document).ready(function() {
+    $(".svg_landscape").css("-webkit-user-select", "none");
     $(".zoomedIn_container").fadeOut(0);
-    var active_tekst; 
+    $(".btn-back").fadeOut(0);
+    $('.btn').button();
+    $('.toggle-group').click(clickedToggle);
 
 
-
+    detaljer();
 
     $('.btn_info_gfx').on('click touchstart', function(e) {
         active_tekst = $(this).text();
@@ -15,72 +30,63 @@
             zoomIn(e);
             console.log('Mouse: ' + touch);
         } else {
-
             var touch = e.originalEvent.touches[0];
             zoomIn(touch);
             console.log('Touch: ' + touch);
         }
-
-    });
-
-    $(".btn-back").fadeOut(0);
-
-    $('.btn').button();
-
-
-
-    var $panzoom = $(".svg_landscape").panzoom({
-
-        panOnlyWhenZoomed: true,
-        onPan: function() {
-
-            if (zoomed ==false){
-                 $panzoom.panzoom("reset");
-            }
-
-
-            console.log("Zoomed: " + zoomed);
-
-        },
-
     });
 
 
-    function zoomIn(e) {
-        //
-        $panzoom.panzoom('zoom', false, {
-            increment: 2.5,
-            animate: true,
-            focal: e
-        });
-        $(".btn-back").fadeIn(1000).click(zoomOut);
-        zoomed = true;
+});
 
-        $(".zoomedIn_container").fadeIn();
-        $(".zoomedTitle").html("Zoom på: " + active_tekst);
+function init() {
+    console.log(jsonData);
+}
 
-        $(".gui_container").fadeOut();
-        $(".btn_info_gfx").fadeOut();
-    };
+function clickedToggle() {
+    var indeks = $(this).parent().parent().parent().index() / 2;
+    console.log("indeks" + indeks);
+}
 
-    function zoomOut(e) {
-        $(".btn-back").hide();
-        $panzoom.panzoom("reset");
+function detaljer() {
 
-        /*console.log($panzoom.css("margin-left"));
-        $panzoom.panzoom('zoom', true, {
-            increment: 1,
-            animate: true
-        });*/
-        zoomed = false;
-         $(".zoomedIn_container").fadeOut();
-        $(".gui_container").fadeIn();
-        $(".btn_info_gfx").fadeIn();
-    };
-
-    $(".svg_landscape").css("-webkit-user-select", "none");
+    for (var i = 0; i < jsonData.zoom_punkter.length; i++) {
+        var zp = jsonData.zoom_punkter[i];
+        console.log(i + " punkt");
+        $(".overlay_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
+        $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
+    }
+}
 
 
+function zoomIn(e) {
+    //
+    $panzoom.panzoom('zoom', false, {
+        increment: 2.5,
+        animate: true,
+        focal: e
+    });
+
+    $(".btn-back").fadeIn(1000).click(zoomOut);
+    zoomed = true;
+
+    $(".zoomedIn_container").fadeIn().html("<h1>Zoomed IN</h1>");
+
+    $(".zoomedTitle").html("Zoom på: " + active_tekst);
+
+    $(".gui_container").fadeOut();
+    $(".btn_info_gfx").fadeOut();
+};
+
+function zoomOut(e) {
+    $(".btn-back").hide();
+    $panzoom.panzoom("reset");
+    zoomed = false;
+    $(".zoomedIn_container").fadeOut();
+    $(".gui_container").fadeIn();
+    $(".btn_info_gfx").fadeIn();
+};
 
 
-    // Focal zoom:
+
+// Focal zoom:

@@ -1,0 +1,28 @@
+{
+    "userInterface": {
+        "header": "Bevægelser i teksten 1",
+        "instruktion": "Placer tekststykkerne, så de står i den rigtige rækkefølge.",
+        "instruktion_2": "Klik på ikonerne. Vælg for hvert tekststykke om den er i helikopterperspektiv eller zoomet ind.",
+        "titel": "Nytårsforsætter"
+    },
+    "overlays": [{
+
+    }],
+    "zoom_punkter": [{
+        "simplegif_position": ["30.5", "8"],
+        "label_position": ["37.5", "17"],
+        "zoom_gif": "zoom_gifs/sun.gif",
+        "simple_gif": "simple_gifs/sun.gif",
+        "header": "Atmosfæren",
+        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+    }, {
+        "simplegif_position": ["30.5", "8"],
+        "label_position": ["60.7", "31"],
+        "zoom_gif": "gifs/sun.gif",
+        "simple_gif": "gifs/sun.gif",
+        "header": "Vulkan",
+        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+    }]
+}
