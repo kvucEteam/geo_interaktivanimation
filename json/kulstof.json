@@ -38,7 +38,7 @@
         "zoom_gif": "animatedgif/quicktest_transparency.gif",
         "simple_gif": "animatedgif/sun.gif",
         "header": "Vand",
-        "tekst_1": ["OK med Vand", "Vand er godt at have"],
+        "tekst_1": ["OK med Vand", "Vand er godt at have. Det kan blandt at bruges til at sejle på."],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
     }]
 }
