@@ -54,7 +54,9 @@ function detaljer() {
         var zp = jsonData.zoom_punkter[i];
         console.log(i + " punkt");
         $(".overlay_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
+        $(".overlay_container").append("<span class='gif'><img src=" + zp.simple_gif + "></span>");
         $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
+        $(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
     }
 }
 
@@ -70,7 +72,7 @@ function zoomIn(e) {
     $(".btn-back").fadeIn(1000).click(zoomOut);
     zoomed = true;
 
-    $(".zoomedIn_container").fadeIn().html("<h1>Zoomed IN</h1>");
+    $(".zoomedIn_container").fadeIn().append("<h1>Zoomed IN</h1>");
 
     $(".zoomedTitle").html("Zoom på: " + active_tekst);
 

@@ -9,10 +9,10 @@
 
     }],
     "zoom_punkter": [{
-        "simplegif_position": ["30.5", "8"],
+        "simplegif_position": ["37.5", "8"],
         "label_position": ["37.5", "17"],
         "zoom_gif": "zoom_gifs/sun.gif",
-        "simple_gif": "simple_gifs/sun.gif",
+        "simple_gif": "animatedgif/sun.gif",
         "header": "Atmosfæren",
         "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
@@ -22,6 +22,22 @@
         "zoom_gif": "gifs/sun.gif",
         "simple_gif": "gifs/sun.gif",
         "header": "Vulkan",
+        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+    }, {
+        "simplegif_position": ["80.5", "45"],
+        "label_position": ["80.7", "51"],
+        "zoom_gif": "animatedgif/tree_test",
+        "simple_gif": "animatedgif/void.gif",
+        "header": "Respiration",
+        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+    }, {
+        "simplegif_position": ["80.5", "45"],
+        "label_position": ["80.7", "51"],
+        "zoom_gif": "animatedgif/tree_test",
+        "simple_gif": "animatedgif/void.gif",
+        "header": "Respiration",
         "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
     }]
