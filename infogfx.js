@@ -19,6 +19,7 @@ $(document).ready(function() {
     $(".btn-back").fadeOut(0);
     $('.btn').button();
     $('.toggle-group').click(clickedToggle);
+    $('li').click(toogleZoomTab);
 
 
     detaljer();
@@ -26,7 +27,7 @@ $(document).ready(function() {
     $('.btn_info_gfx').on('click touchstart', function(e) {
 
         active_zoom = $('.btn_info_gfx').index(this)
-//        active_zoom = $(this).index("detalje_label");
+            //        active_zoom = $(this).index("detalje_label");
         console.log("as: " + active_zoom);
         if (e.type == 'click') {
             console.log('Mouse Click');
@@ -56,11 +57,17 @@ function detaljer() {
     for (var i = 0; i < jsonData.zoom_punkter.length; i++) {
         var zp = jsonData.zoom_punkter[i];
         console.log(i + " punkt");
-        $(".overlay_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
-        $(".overlay_container").append("<span class='gif'><img src=" + zp.simple_gif + "></span>");
+        $(".landscape_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
+        $(".landscape_container").append("<span class='gif'><img src=" + zp.simple_gif + "></span>");
         $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
         $(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
     }
+}
+
+function toogleZoomTab(){
+    var indeks = $(this).index();
+    console.log();
+    $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].tekst_1[indeks+1]);
 }
 
 
@@ -69,7 +76,8 @@ function zoomIn(e) {
     var zp = jsonData.zoom_punkter[active_zoom];
     //
     $panzoom.panzoom('zoom', false, {
-        increment: 2.5,
+        duration: 20,
+        increment: 1.5,
         animate: true,
         focal: e
     });
@@ -77,9 +85,14 @@ function zoomIn(e) {
     $(".btn-back").fadeIn(1000).click(zoomOut);
     zoomed = true;
 
-    $(".zoomedIn_container").fadeIn()
+
+    console.log($(".container-fluid").height());
+    $(".zoomedIn_container").css("height", $(".container-fluid").height()).fadeIn();
+    $(".img_container").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
+    $(".zoom_pic").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
+    $(".gif").hide();
     $(".zoomTitle").html(zp.header);
-    $(".zoom_pic").attr("src", zp.zoom_gif);
+    $(".zoom_pic").attr("src", zp.zoom_gif); //.css("height", );
     $(".exp_header").html(zp.tekst_1[0]);
     $(".exp_tekst").html(zp.tekst_1[1]);
     $(".gui_container").fadeOut();
@@ -87,6 +100,7 @@ function zoomIn(e) {
 };
 
 function zoomOut(e) {
+    $(".gif").show();
     $(".btn-back").hide();
     $panzoom.panzoom("reset");
     zoomed = false;

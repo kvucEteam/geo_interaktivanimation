@@ -12,31 +12,31 @@
         "simplegif_position": ["37.5", "8"],
         "label_position": ["37.5", "17"],
         "zoom_gif": "zoom_gifs/sun.gif",
-        "simple_gif": "animatedgif/sun.gif",
+        "simple_gif": "",
         "header": "Atmosfæren",
-        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
-        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+        "tekst_1": ["OK atmosfære", "Vidste du, atmosfæren er fuld af molekyler?"],
+        "tekst_2": ["Fuld af Molekyler", ""]
     }, {
-        "simplegif_position": ["30.5", "8"],
-        "label_position": ["60.7", "31"],
-        "zoom_gif": "animatedgif/sun.gif",
-        "simple_gif": "animatedgif/sun.gif",
+        "simplegif_position": ["55.5", "22.7"],
+        "label_position": ["65.7", "20"],
+        "zoom_gif": "animatedgif/vulkan_pyro02.gif",
+        "simple_gif": "simplegif/vulkan_simple_outline.gif",
         "header": "Vulkan",
-        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_1": ["1. Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
     }, {
         "simplegif_position": ["80.5", "45"],
         "label_position": ["80.7", "51"],
         "zoom_gif": "animatedgif/tree_test",
-        "simple_gif": "animatedgif/sun.gif",
+        "simple_gif": "",
         "header": "Respiration",
-        "tekst_1": ["OK atmosfæren", "Atmosfæren er god at have"],
+        "tekst_1": ["", ""],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
     }, {
         "simplegif_position": ["80.5", "45"],
         "label_position": ["50.7", "75"],
         "zoom_gif": "animatedgif/quicktest_transparency.gif",
-        "simple_gif": "animatedgif/sun.gif",
+        "simple_gif": "",
         "header": "Vand",
         "tekst_1": ["OK med Vand", "Vand er godt at have. Det kan blandt at bruges til at sejle på."],
         "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]

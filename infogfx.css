@@ -43,6 +43,7 @@
 .landscape_container {
     overflow: hidden;
     position: relative;
+    background-color: #dff8f8;
 }
 
 .svgImage {
@@ -54,15 +55,13 @@
     position: absolute;
 }
 
-.gif {
-    z-index: 9;
-    position: absolute;
-    left: 60%;
-    top: 6%;
-}
 
 .sun {
     height: 80px;
+}
+
+.gif{
+    position: absolute;
 }
 
 
@@ -73,5 +72,36 @@
 }
 
 .zoom_expl{
-	background-color: white;
+    padding: 0px;
+    margin-top: -30px;
 }
+
+.zoom_pic{
+
+}
+
+.img_container{
+   
+}
+
+.btn-zoom-left {
+    position:absolute;
+    top:30%;
+}
+
+.btn-zoom-right {
+    position:absolute;
+    top:30%;
+    right:0;
+}
+
+.exp_tekst_container{
+    background-color: #F8F8F6;
+    border: 1px solid #ddd;
+    border-top: none;
+    margin-top: 0px;
+    height: 140px;
+    border-radius: 2px;
+    padding: 10px;
+}
+
