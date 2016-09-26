@@ -31,12 +31,13 @@
     top: 30%;
     left: 2%;
     z-index: 400;
+    width: 15%;
 }
 
 .zoomedIn_container {
     position: absolute;
     z-index: 100;
-    background-color: rgba(255,255,255,.7);
+    background-color: rgba(255, 255, 255, .7);
     width: 100%;
 }
 
@@ -55,53 +56,73 @@
     position: absolute;
 }
 
-
 .sun {
     height: 80px;
 }
 
-.gif{
+.gif {
     position: absolute;
 }
 
-
-.btn-back{
-    position:absolute;
-    right:0;
+.btn-back {
+    position: absolute;
+    right: 0;
     cursor: pointer;
 }
 
-.zoom_expl{
+.zoom_expl {
     padding: 0px;
     margin-top: -30px;
 }
 
-.zoom_pic{
+.zoom_pic {}
 
-}
-
-.img_container{
-   
+.img_container {
+    margin-top: -60px;
 }
 
 .btn-zoom-left {
-    position:absolute;
-    top:30%;
+    position: absolute;
+    top: 30%;
 }
 
 .btn-zoom-right {
-    position:absolute;
-    top:30%;
-    right:0;
+    position: absolute;
+    top: 30%;
+    right: 0;
 }
 
-.exp_tekst_container{
+.exp_container {}
+
+.exp_tekst_container {
     background-color: #F8F8F6;
     border: 1px solid #ddd;
     border-top: none;
     margin-top: 0px;
-    height: 140px;
+    overflow: auto;
     border-radius: 2px;
     padding: 10px;
 }
 
+.btn-view-toggle {
+    width: 100%;
+}
+
+.png_overlay {
+    position: absolute;
+    top: 0;
+}
+
+.carousel-control {
+    color: green;
+    margin: 69%;
+    margin-top: 119%;
+}
+
+.exp_header::first-letter{
+  border: 2px solid #aaa;
+    border-radius: 20px;
+    padding-left: 10px;
+    background-color: #eee;
+    padding-right: 10px;
+}

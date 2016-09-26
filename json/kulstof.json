@@ -11,34 +11,45 @@
     "zoom_punkter": [{
         "simplegif_position": ["37.5", "8"],
         "label_position": ["37.5", "17"],
-        "zoom_gif": "zoom_gifs/sun.gif",
+
         "simple_gif": "",
         "header": "Atmosfæren",
-        "tekst_1": ["OK atmosfære", "Vidste du, atmosfæren er fuld af molekyler?"],
-        "tekst_2": ["Fuld af Molekyler", ""]
+        "infotekster": [
+            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+        ]
     }, {
-        "simplegif_position": ["55.5", "22.7"],
-        "label_position": ["65.7", "20"],
-        "zoom_gif": "animatedgif/vulkan_pyro02.gif",
-        "simple_gif": "simplegif/vulkan_simple_outline.gif",
+        "simplegif_position": ["54.4", "11.5"],
+        "label_position": ["65.7", "15"],
+        
+        "simple_gif": "simplegif/SimpleGIF_vulkan.png",
         "header": "Vulkan",
-        "tekst_1": ["1. Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+        "infotekster": [
+            ["animatedgif/bigGIF_vulkan_aflejring.png", "1 Aflejring af skaller på havbunden.", " På havbunden dannes der kalk, som følge af aflejringen af skaller og skeletter fra døde dyr. Ved et stigende tryk og temperatur omdannes disse rester til en fast bjergart.", "Kemi: Alger har fotosyntese: CO2 + 6H2O + lysenergi → C6H12O6 + 6O2 Dyr spiser algerne og optager derved kulstoffet, der anvendes i opbygningen af deres indvendige og/eller udvendige kalkskeletter. Når kalkskeletter og skaller bliver overlejret af nyt materiale stiger trykket, og derved “smelter” partiklerne sammen og danner en sammenhængende bjergart. Når havvand inddampes vil vandets indhold af opløste salte udfældes i en bestemt rækkefølge. Først kalk (CaCO3), dernæst dolomit(CaMg(CO3)2), så anhydrit (CaSO4) og til sidst stensalt og kalisalt"],
+            ["animatedgif/bigGIF_vulkan_afgasning.png", "2 Nedsynkende plade oceanbundsplade. Materialerne der er aflejret synker med ned", "Ved en subduktionszone synker oceanbundspladen under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur fører til en afgasning af kalken i form af CO2", "Under opvarmningen ændres kalk kemisk: CaCO3 → CaO + CO2"],
+            ["animatedgif/bigGIF_vulkan_udbrud.gif", "3 Vulkanudbrud", "Man kan stadig se ned nedsynkende plade. Man ser en forbindelse mellem den nedsynkende plade og vulkanen. Smelte fra den nedsynkende plade stiger op i vulkanen.", "CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+        ]
     }, {
         "simplegif_position": ["80.5", "45"],
         "label_position": ["80.7", "51"],
-        "zoom_gif": "animatedgif/tree_test",
-        "simple_gif": "",
-        "header": "Respiration",
-        "tekst_1": ["", ""],
-        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+
+        "simple_gif": "simplegif/SimpleGIF_skovafbraending.png",
+        "header": "Skovafbrænding",
+        "infotekster": [
+            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+        ]
     }, {
         "simplegif_position": ["80.5", "45"],
         "label_position": ["50.7", "75"],
-        "zoom_gif": "animatedgif/quicktest_transparency.gif",
         "simple_gif": "",
         "header": "Vand",
-        "tekst_1": ["OK med Vand", "Vand er godt at have. Det kan blandt at bruges til at sejle på."],
-        "tekst_2": ["Fuld af Molekyler", "Vidste du, atmosfæren er fuld af molekyler?"]
+        "infotekster": [
+            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+        ]
     }]
 }
