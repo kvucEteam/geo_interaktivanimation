@@ -20,11 +20,11 @@
             ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
         ]
     }, {
-        "simplegif_position": ["54.4", "11.5"],
-        "label_position": ["65.7", "15"],
+        "simplegif_position": ["65.5", "13.5"],
+        "label_position": ["65.7", "18"],
         
         "simple_gif": "simplegif/SimpleGIF_vulkan.png",
-        "header": "Vulkan",
+        "header": "Vulkanudbrud",
         "infotekster": [
             ["animatedgif/bigGIF_vulkan_aflejring.png", "1 Aflejring af skaller på havbunden.", " På havbunden dannes der kalk, som følge af aflejringen af skaller og skeletter fra døde dyr. Ved et stigende tryk og temperatur omdannes disse rester til en fast bjergart.", "Kemi: Alger har fotosyntese: CO2 + 6H2O + lysenergi → C6H12O6 + 6O2 Dyr spiser algerne og optager derved kulstoffet, der anvendes i opbygningen af deres indvendige og/eller udvendige kalkskeletter. Når kalkskeletter og skaller bliver overlejret af nyt materiale stiger trykket, og derved “smelter” partiklerne sammen og danner en sammenhængende bjergart. Når havvand inddampes vil vandets indhold af opløste salte udfældes i en bestemt rækkefølge. Først kalk (CaCO3), dernæst dolomit(CaMg(CO3)2), så anhydrit (CaSO4) og til sidst stensalt og kalisalt"],
             ["animatedgif/bigGIF_vulkan_afgasning.png", "2 Nedsynkende plade oceanbundsplade. Materialerne der er aflejret synker med ned", "Ved en subduktionszone synker oceanbundspladen under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur fører til en afgasning af kalken i form af CO2", "Under opvarmningen ændres kalk kemisk: CaCO3 → CaO + CO2"],
@@ -32,7 +32,7 @@
         ]
     }, {
         "simplegif_position": ["80.5", "45"],
-        "label_position": ["80.7", "51"],
+        "label_position": ["80.7", "59"],
 
         "simple_gif": "simplegif/SimpleGIF_skovafbraending.png",
         "header": "Skovafbrænding",

@@ -56,19 +56,24 @@
     position: absolute;
 }
 
+.detalje_container{
+    display: inline;
+}
+
 .sun {
     height: 80px;
 }
 
 .gif {
     position: absolute;
-    height: 20px;
+    max-width: 10%;
 }
 
 .btn-back {
     position: absolute;
     right: 0;
     cursor: pointer;
+    top: 20px;
 }
 
 .zoom_expl {
@@ -137,4 +142,9 @@
     color:black;
     font-weight: bold;
     cursor: pointer;
+}
+
+.vuc-primary-active, .vuc-primary-hover {
+    color: #fff;
+    background-color: #05a0a8 !important;
 }
