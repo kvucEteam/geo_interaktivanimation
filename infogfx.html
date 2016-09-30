@@ -20,24 +20,22 @@
                 <div class="zoomedIn_container">
                     <div class="btn btn-default btn-back"><span class="glyphicon glyphicon-zoom-out"> </span> Tilbage
                     </div>
-                    
                     <div class="col-xs-2">
-                             <a class="left btn_left carousel-control" href="#questionCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Next</span></a>
+                        <a class="left btn_left carousel-control" href="#questionCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span><span class="sr-only">Next</span></a>
                     </div>
                     <div class="col-xs-8 zoom_expl">
-                    <h1 class="zoomTitle"></h1>
-                       
+                        <h1 class="zoomTitle"></h1>
                         <div class="col-xs-12 img_container">
                             <img class="img-responsive zoom_pic" />
-                            <div class="exp_container col-xs-12">
-                                <ul class="nav nav-tabs">
-                                    <li class="active"><a data-toggle="tab">INFO</a></li>
-                                    <li><a data-toggle="tab">KEMI</a></li>
-                                </ul>
-                                <div class="exp_tekst_container">
-                                 <h4 class="exp_header"><span class="circle_k">1</span></h4>
-                                    <p class="exp_tekst">HEJ</p>
-                                </div>
+                        </div>
+                        <div class="exp_container col-xs-12">
+                            <ul class="nav nav-tabs">
+                                <li class="active"><a data-toggle="tab">INFO</a></li>
+                                <li><a data-toggle="tab">KEMI</a></li>
+                            </ul>
+                            <div class="exp_tekst_container">
+                                <h4 class="exp_header"><span class="circle_k">1</span></h4>
+                                <p class="exp_tekst">HEJ</p>
                             </div>
                         </div>
                     </div>
@@ -59,7 +57,6 @@
                 <div class="btn btn-info btn-sm btn-view-toggle vuc-primary-active">
                     Undersøg detaljer
                 </div>
-                
             </div>
         </div>
     </div>
@@ -72,11 +69,8 @@
         getAjaxData("GET", "json/kulstof.json", false, "json");
         one_line_footer();
     });
-
     </script>
     <script src="infogfx.js"></script>
 </body>
 
 </html>
-
-
