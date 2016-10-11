@@ -29,7 +29,6 @@
 .gui_container {
     position: absolute;
     top: 30%;
-    left: 2%;
     z-index: 400;
     width: 15%;
 }
@@ -111,7 +110,10 @@
 }
 
 .btn-view-toggle {
-    width: 100%;
+        width: 100%;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 14px;
 }
 
 .png_overlay {
@@ -148,3 +150,5 @@
     color: #fff;
     background-color: #05a0a8 !important;
 }
+
+
