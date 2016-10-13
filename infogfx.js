@@ -1,7 +1,9 @@
 var active_zoom;
 var active_zoom_slide = 0;
 var tab_index = 0;
+var tab_title = "info";
 var zoomed = false;
+
 
 
 var $panzoom = $(".svg_landscape").panzoom({
@@ -94,13 +96,15 @@ function toogleZoomTab() {
     tab_index = indeks;
     console.log("TZT" + tab_index);
     $(".exp_tekst").slideUp(200, function() {
-        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].infotekster[active_zoom_slide][indeks + 2]);
+        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].txt);
+        $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].pic)
         $(".exp_tekst").slideDown(200);
     });
 }
 
 
 function zoomIn(e) {
+
     active_zoom_slide = 0;
 
     var zp = jsonData.zoom_punkter[active_zoom];
@@ -113,6 +117,11 @@ function zoomIn(e) {
     });
 
     $(".btn-back").fadeIn(1000).click(zoomOut);
+
+    if (jsonData.zoom_punkter[active_zoom].slides.length < 2) {
+    $(".btn_right").hide();
+    }
+
     $(".btn_left").hide();
     zoomed = true;
 
@@ -122,9 +131,12 @@ function zoomIn(e) {
     //$(".img_container").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
     //$(".zoom_pic").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
     $(".zoomTitle").html(zp.header);
-    $(".zoom_pic").attr("src", zp.infotekster[active_zoom_slide][0]); //.css("height", );
-    $(".exp_header").html(zp.infotekster[active_zoom_slide][1]);
-    $(".exp_tekst").html(zp.infotekster[active_zoom_slide][2 + tab_index]);
+    console.log("ZP: " + zp.overskrift)
+    $(".exp_header").html(zp.overskrift[active_zoom_slide]);
+    console.log(zp.slides[active_zoom_slide].tab[tab_index].pic);
+    $(".zoom_pic").attr("src", zp.slides[active_zoom_slide].tab[tab_index].pic); //.css("height", );
+
+    $(".exp_tekst").html(zp.slides[active_zoom_slide].tab[tab_index].txt);
     $(".gui_container").fadeOut();
     $(".btn_info_gfx").fadeOut();
     //$(".gif").fadeOut(0);
@@ -142,7 +154,7 @@ function zoomOut(e) {
 
 function clickedCarousel() {
 
-    var carousel_length = jsonData.zoom_punkter[active_zoom].infotekster.length;
+    var carousel_length = jsonData.zoom_punkter[active_zoom].slides.length;
     var indeks = $(this).index(".carousel-control");
 
     if (indeks == 0) {
@@ -171,14 +183,14 @@ function clickedCarousel() {
         $(".btn_right, .btn_left").show();
     }
 
-    
+
 }
 
 // Focal zoom:
 function resize_text_container() {
-    
+
     var div_offset = $(".img_container").height();
-    
+
     var container_height = $(".container-fluid").height();
     var remaining_height = container_height - parseInt(div_offset);
 

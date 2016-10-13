@@ -9,47 +9,60 @@
 
     }],
     "zoom_punkter": [{
-        "simplegif_position": ["37.5", "8"],
-        "label_position": ["37.5", "17"],
+            "simplegif_position": ["65.5", "13.5"],
+            "label_position": ["25.7", "65"],
 
-        "simple_gif": "",
-        "header": "Atmosfæren",
-        "infotekster": [
-            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-        ]
-    }, {
-        "simplegif_position": ["65.5", "13.5"],
-        "label_position": ["65.7", "18"],
-        
-        "simple_gif": "simplegif/SimpleGIF_vulkan.png",
-        "header": "Vulkanudbrud",
-        "infotekster": [
-            ["animatedgif/bigGIF_vulkan_aflejring.png", "1 Aflejring af skaller på havbunden.", " På havbunden dannes der kalk, som følge af aflejringen af skaller og skeletter fra døde dyr. Ved et stigende tryk og temperatur omdannes disse rester til en fast bjergart.", "Kemi: Alger har fotosyntese: CO2 + 6H2O + lysenergi → C6H12O6 + 6O2 Dyr spiser algerne og optager derved kulstoffet, der anvendes i opbygningen af deres indvendige og/eller udvendige kalkskeletter. Når kalkskeletter og skaller bliver overlejret af nyt materiale stiger trykket, og derved “smelter” partiklerne sammen og danner en sammenhængende bjergart. Når havvand inddampes vil vandets indhold af opløste salte udfældes i en bestemt rækkefølge. Først kalk (CaCO3), dernæst dolomit(CaMg(CO3)2), så anhydrit (CaSO4) og til sidst stensalt og kalisalt"],
-            ["animatedgif/bigGIF_vulkan_afgasning.png", "2 Nedsynkende plade oceanbundsplade. Materialerne der er aflejret synker med ned", "Ved en subduktionszone synker oceanbundspladen under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur fører til en afgasning af kalken i form af CO2", "Under opvarmningen ændres kalk kemisk: CaCO3 → CaO + CO2"],
-            ["animatedgif/bigGIF_vulkan_udbrud.gif", "3 Vulkanudbrud", "Man kan stadig se ned nedsynkende plade. Man ser en forbindelse mellem den nedsynkende plade og vulkanen. Smelte fra den nedsynkende plade stiger op i vulkanen.", "CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-        ]
-    }, {
-        "simplegif_position": ["80.5", "45"],
-        "label_position": ["80.7", "59"],
+            "simple_gif": "simplegif/SimpleGIF_vulkan.png",
+            "header": "Fotosyntese",
+            "overskrift": [""],
+            "slides": [{
+                "tab": [{
+                    "pic": "animatedgif/bigGIFfotosyntese_info.png",
+                    "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese . <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
+                }, {
+                    "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
+                    "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 (sollys - over pilen) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
+                }]
+            }]
+        }, {
+            "simplegif_position": ["65.5", "13.5"],
+            "label_position": ["25.7", "25"],
 
-        "simple_gif": "simplegif/SimpleGIF_skovafbraending.png",
-        "header": "Skovafbrænding",
-        "infotekster": [
-            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-        ]
-    }, {
-        "simplegif_position": ["80.5", "45"],
-        "label_position": ["50.7", "75"],
-        "simple_gif": "",
-        "header": "Vand",
-        "infotekster": [
-            ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-            ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-        ]
-    }]
+            "simple_gif": "simplegif/SimpleGIF_vulkan.png",
+            "header": "Forvitring af bjerarter",
+            "overskrift": [""],
+            "slides": [{
+                "tab": [{
+                    "pic": "animatedgif/bigGIFforvitringbjergarter_info.png",
+                    "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+                }, {
+                    "pic": "animatedgif/bigGIFforvitringbjergarter_kemi.png",
+                    "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
+                }]
+            }]
+        },
+
+        {
+            "simplegif_position": ["80.5", "45"],
+            "label_position": ["80.7", "59"],
+
+            "simple_gif": "simplegif/SimpleGIF_skovafbraending.png",
+            "header": "Skovafbrænding",
+            "infotekster": [
+                ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+                ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+                ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+            ]
+        }, {
+            "simplegif_position": ["80.5", "45"],
+            "label_position": ["50.7", "75"],
+            "simple_gif": "",
+            "header": "Vand",
+            "infotekster": [
+                ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+                ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
+                ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
+            ]
+        }
+    ]
 }
