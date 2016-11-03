@@ -1,68 +1,202 @@
 {
     "userInterface": {
         "header": "Bevægelser i teksten 1",
-        "instruktion": "Placer tekststykkerne, så de står i den rigtige rækkefølge.",
-        "instruktion_2": "Klik på ikonerne. Vælg for hvert tekststykke om den er i helikopterperspektiv eller zoomet ind.",
+        "explanation": "Formålet med øvelsen er at få et indblik i hvordan kulstof bevæger sig mellem de forskellige sfærer. Der er tale om et kredsløbet, hvor Jordens samlede mængde kulstof er konstant. Denne mængde er usikker, specielt fordi de geologiske lagres størrelse er ukendt.<br/>Mængden af kulstof i sfærerne varierer, og denne variation er ikke konstant, men er afhængig af menneskelige aktiviteter, vulkanudbrud, global temperatur, plantevækst mm.",
+        "instruktion": "På figuren kan du vælge mellem at få vist en oversigt over kredsløbet, sfærerne og du kan se nærmere på de enkelte processer. <br/>Når du klikker på KULSTOFKREDSLØBET, så kan du se en overordnet tegning af kredsløbets processer med pile, der viser hvordan kulstoffet bevæger sig.<br/>Når du klikker på SFÆRER, så får du vist de fire forskellige sfærerer. Her kan du klikke ind og læse mere om hver af sfærerne herunder mængden af kulstof de forskellige steder.<br/>Når du klikker på UNDERSØG DETALJER, så kan du klikke videre og se beskrivelser af de forskellige processer. Du får så vist en overordnet forklaring og kan også vælge at se yderligere detaljer.",
         "titel": "Nytårsforsætter"
     },
     "overlays": [{
 
     }],
     "zoom_punkter": [{
-            "simplegif_position": ["65.5", "13.5"],
-            "label_position": ["25.7", "65"],
+        "simplegif_position": ["10.8", "64.5"],
+        "label_position": ["12.8", "76.5"],
 
-            "simple_gif": "simplegif/SimpleGIF_vulkan.png",
-            "header": "Fotosyntese",
+        "simple_gif": "simplegif/fotosyntese_respiration_blad.png",
+        "header": "Fotosyntese",
+
+        "slides": [{
             "overskrift": [""],
-            "slides": [{
-                "tab": [{
-                    "pic": "animatedgif/bigGIFfotosyntese_info.png",
-                    "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese . <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
-                }, {
-                    "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
-                    "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 (sollys - over pilen) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
-                }]
+            "tab": [{
+                "pic": "animatedgif/bigGIFfotosyntese_info.png",
+                "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese . <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
+            }, {
+                "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
+                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 (sollys - over pilen) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
+            }]
+        }]
+    }, {
+        "simplegif_position": ["165.5", "13.5"],
+        "label_position": ["66.7", "75"],
+
+        "simple_gif": "simplegif/vulkanudbrud.png",
+        "header": "Forvitring af bjerarter",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIFforvitringbjergarter_info.png",
+                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+            }, {
+                "pic": "animatedgif/bigGIFforvitringbjergarter_kemi.png",
+                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["82.4", "54.5"],
+        "label_position": ["82.4", "69"],
+
+        "simple_gif": "simplegif/vulkanudbrud.png",
+        "header": "Vulkanudbrud",
+
+        "slides": [{
+            "overskrift": ["1 Kalkdannelse"],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_vulkan_aflejring_info.png",
+                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+            }, {
+                "pic": "animatedgif/bigGIF_vulkan_aflejring_kemi.png",
+                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
             }]
         }, {
-            "simplegif_position": ["65.5", "13.5"],
-            "label_position": ["25.7", "25"],
+            "overskrift": ["2 Subduktion af oceanbundsplade"],
+            "tab": [{
 
-            "simple_gif": "simplegif/SimpleGIF_vulkan.png",
-            "header": "Forvitring af bjerarter",
-            "overskrift": [""],
-            "slides": [{
-                "tab": [{
-                    "pic": "animatedgif/bigGIFforvitringbjergarter_info.png",
-                    "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
-                }, {
-                    "pic": "animatedgif/bigGIFforvitringbjergarter_kemi.png",
-                    "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
-                }]
+                "pic": "animatedgif/bigGIF_vulkan_aflejring_kemi.png",
+                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+            }, {
+                "pic": "animatedgif/bigGIF_vulkan_afgasning_kemi.png",
+                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
             }]
-        },
-
-        {
-            "simplegif_position": ["80.5", "45"],
-            "label_position": ["80.7", "59"],
-
-            "simple_gif": "simplegif/SimpleGIF_skovafbraending.png",
-            "header": "Skovafbrænding",
-            "infotekster": [
-                ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-                ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-                ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-            ]
         }, {
-            "simplegif_position": ["80.5", "45"],
-            "label_position": ["50.7", "75"],
-            "simple_gif": "",
-            "header": "Vand",
-            "infotekster": [
-                ["simplegif/SimpleGIF_vulkan.png", "1 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-                ["simplegif/SimpleGIF_vulkan.png", "2 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"],
-                ["simplegif/SimpleGIF_vulkan.png", "3 Vulkanudbrud", "Den afgassede kalk kommer ud i atmosfæren via et vulkanudbrud.", "Kemi: CO2 og der kan være vulkanske bjergarter med stort indhold af CaCO3"]
-            ]
-        }
-    ]
+            "overskrift": ["3 Vulkanudbrud"],
+            "tab": [{
+
+                "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
+                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+            }, {
+                "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
+                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["22", "61.7"],
+        "label_position": ["20.7", "70"],
+
+        "simple_gif": "simplegif/respiration_metan.png",
+        "header": "Respiration",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["32.2", "84"],
+        "label_position": ["30.7", "94"],
+
+        "simple_gif": "simplegif/fossilebraendsler_algerdannelse.png",
+        "header": "Olie- og gasdannelse",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["46", "50.4"],
+        "label_position": ["46", "66"],
+
+        "simple_gif": "simplegif/skovbrand.png",
+        "header": "Skovbrand",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["13", "80"],
+        "label_position": ["53", "88"],
+
+        "simple_gif": "simplegif/fotosyntese_respiration_vandplanter.png",
+        "header": "Kulstofudveksling i havet",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["69.2", "53.8"],
+        "label_position": ["62", "62"],
+
+        "simple_gif": "simplegif/fossilebraendsler_bil.png",
+        "header": "Afbrænding af fossile brændstoffer",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["169.2", "53.8"],
+        "label_position": ["58", "52"],
+
+        "simple_gif": "simplegif/fossilebraendsler_bil.png",
+        "header": "Kuldannelse",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }, {
+        "simplegif_position": ["619.2", "53.8"],
+        "label_position": ["32", "63"],
+
+        "simple_gif": "simplegif/fossilebraendsler_bil.png",
+        "header": "Metanudvikling",
+
+        "slides": [{
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+            }, {
+                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+            }]
+        }]
+    }]
 }

@@ -18,6 +18,11 @@ var $panzoom = $(".svg_landscape").panzoom({
 
 
 $(document).ready(function() {
+
+    $('.instr_container').html(instruction(jsonData.userInterface.instruktion)); //"Brug data fra de tre punkter på bjerget til at udfylde alle spørgsmålstegnene i infokasserne ved vejrstationerne"));
+
+    $("#explanationWrapper").html(explanation(jsonData.userInterface.explanation)); //("Formålet med øvelsen er at øge forståelsen af begreberne aktuel luftfugtighed (AF) og relativ luftfugtighed (RF), dugpunkt og stigningsregn."));
+
     $(".svg_landscape").css("-webkit-user-select", "none");
     $(".zoomedIn_container").fadeOut(0);
     $(".btn-back").fadeOut(0);
@@ -72,6 +77,7 @@ function clickedToggle() {
     } else if (indeks == 2) {
         $(".png_overlay").remove();
         $(".detalje_container").show();
+        $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
 
     }
 
@@ -116,10 +122,13 @@ function zoomIn(e) {
         focal: e
     });
 
+    console.log("zoomlength:" + jsonData.zoom_punkter[active_zoom].slides.length);
+
     $(".btn-back").fadeIn(1000).click(zoomOut);
 
     if (jsonData.zoom_punkter[active_zoom].slides.length < 2) {
-    $(".btn_right").hide();
+        $(".btn_right").hide();
+        console.log("zoomlength:" + jsonData.zoom_punkter[active_zoom].slides.length);
     }
 
     $(".btn_left").hide();
@@ -132,7 +141,7 @@ function zoomIn(e) {
     //$(".zoom_pic").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
     $(".zoomTitle").html(zp.header);
     console.log("ZP: " + zp.overskrift)
-    $(".exp_header").html(zp.overskrift[active_zoom_slide]);
+    $(".exp_header").html(zp.slides[active_zoom_slide].overskrift);
     console.log(zp.slides[active_zoom_slide].tab[tab_index].pic);
     $(".zoom_pic").attr("src", zp.slides[active_zoom_slide].tab[tab_index].pic); //.css("height", );
 
@@ -150,6 +159,7 @@ function zoomOut(e) {
     $(".zoomedIn_container").fadeOut();
     $(".gui_container").fadeIn();
     $(".btn_info_gfx").fadeIn();
+
 };
 
 function clickedCarousel() {
@@ -167,10 +177,10 @@ function clickedCarousel() {
 
     $(".zoom_expl").fadeOut(400, function() {
 
-        $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].infotekster[active_zoom_slide][0]);
-        $(".exp_header").html(jsonData.zoom_punkter[active_zoom].infotekster[active_zoom_slide][1]);
-        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].infotekster[active_zoom_slide][2 + tab_index]);
-        $(".zoom_expl").show();
+        $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].pic);
+        $(".exp_header").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].overskrift);
+        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide][2 + tab_index]);
+        $(".zoom_expl").fadeIn(400);
 
         //resize_text_container();
     });

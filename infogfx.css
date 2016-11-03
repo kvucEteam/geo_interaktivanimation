@@ -88,7 +88,9 @@
 
 .btn-zoom-left {
     position: absolute;
-    top: 30%;
+    top: 40%;
+    background-color: white;
+    
 }
 
 .btn-zoom-right {
