@@ -107,16 +107,16 @@ function detaljer() {
 
 function sfaerer_labels() {
     for (var i = 0; i < jsonData.sfaerer_labels.length; i++) {
-        $(".sfaerer_overlay").append("<div class='sfaerer_label'>" + jsonData.sfaerer_labels[i].label + "</div>");
+        $(".sfaerer_overlay").append("<div class='btn btn-info sfaerer_label'>" + jsonData.sfaerer_labels[i].label + "</div>");
         $(".sfaerer_label").eq(i).css("left", jsonData.sfaerer_labels[i].label_position[0] + "%").css("top", jsonData.sfaerer_labels[i].label_position[1] + "%"); //.css("top", jsonData.sfaerer_label[i].label_position[1]);
     }
     $(".sfaerer_label").click(function() {
         var indeks = $(this).index(".sfaerer_label");
 
         var HTML = "<h3>"+jsonData.sfaerer_labels[indeks].label+"</h3>";
-        HTML +="<div class='col-xs-6'>Forklaring<br/>"+jsonData.sfaerer_labels[indeks].txt[0]+"></div>";
-        HTML +="<div class='col-xs-6'>Eksempel på Kulstof<br/>"+jsonData.sfaerer_labels[indeks].txt[1]+ "<br/>";
-        HTML +="Ca.estimater" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
+        HTML +="<div class='col-xs-6'><b>Forklaring</b><br/>"+jsonData.sfaerer_labels[indeks].txt[0]+"</div>";
+        HTML +="<div class='col-xs-6'><b>Eksempel på Kulstof</b><br/>"+jsonData.sfaerer_labels[indeks].txt[1]+ "<br/>";
+        HTML +="<br/><b>Ca.estimater</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
 
 
         UserMsgBox("body", HTML);
