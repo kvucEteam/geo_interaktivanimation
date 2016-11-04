@@ -33,7 +33,10 @@ $(document).ready(function() {
     $(".carousel-control").click(clickedCarousel);
 
 
+    init();
     detaljer();
+    sfaerer_labels();
+
 
     $('.btn_info_gfx').on('click touchstart', function(e) {
 
@@ -55,6 +58,9 @@ $(document).ready(function() {
 });
 
 function init() {
+    $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
+    $(".svg_landscape").append("<div class='sfaerer_overlay'><img class='img-responsive' src='svg/sfaerer_overlay.png'></div>");
+    $(".png_overlay, .sfaerer_overlay").hide();
     console.log(jsonData);
 }
 
@@ -65,19 +71,21 @@ function clickedToggle() {
     $(this).addClass("vuc-primary-active");
 
     if (indeks == 0) {
-        $(".png_overlay").remove();
-        $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
+        $(".png_overlay, .sfaerer_overlay").hide();
+        $(".png_overlay").show();
         $(".detalje_container").hide();
+
     } else if (indeks == 1) {
-        $(".png_overlay").remove();
-        $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/sfaerer_overlay.png'>");
+        $(".png_overlay, .sfaerer_overlay").hide();
+        $(".sfaerer_overlay").show();
+
         $(".detalje_container").hide();
 
         console.log("vis sfærer!");
     } else if (indeks == 2) {
-        $(".png_overlay").remove();
+        $(".png_overlay, .sfaerer_overlay").hide();
         $(".detalje_container").show();
-        $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
+        //$(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
 
     }
 
@@ -95,6 +103,24 @@ function detaljer() {
         $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
         $(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
     }
+}
+
+function sfaerer_labels() {
+    for (var i = 0; i < jsonData.sfaerer_labels.length; i++) {
+        $(".sfaerer_overlay").append("<div class='sfaerer_label'>" + jsonData.sfaerer_labels[i].label + "</div>");
+        $(".sfaerer_label").eq(i).css("left", jsonData.sfaerer_labels[i].label_position[0] + "%").css("top", jsonData.sfaerer_labels[i].label_position[1] + "%"); //.css("top", jsonData.sfaerer_label[i].label_position[1]);
+    }
+    $(".sfaerer_label").click(function() {
+        var indeks = $(this).index(".sfaerer_label");
+
+        var HTML = "<h3>"+jsonData.sfaerer_labels[indeks].label+"</h3>";
+        HTML +="<div class='col-xs-6'>Forklaring<br/>"+jsonData.sfaerer_labels[indeks].txt[0]+"></div>";
+        HTML +="<div class='col-xs-6'>Eksempel på Kulstof<br/>"+jsonData.sfaerer_labels[indeks].txt[1]+ "<br/>";
+        HTML +="Ca.estimater" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
+
+
+        UserMsgBox("body", HTML);
+    });
 }
 
 function toogleZoomTab() {

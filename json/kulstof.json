@@ -5,8 +5,22 @@
         "instruktion": "På figuren kan du vælge mellem at få vist en oversigt over kredsløbet, sfærerne og du kan se nærmere på de enkelte processer. <br/>Når du klikker på KULSTOFKREDSLØBET, så kan du se en overordnet tegning af kredsløbets processer med pile, der viser hvordan kulstoffet bevæger sig.<br/>Når du klikker på SFÆRER, så får du vist de fire forskellige sfærerer. Her kan du klikke ind og læse mere om hver af sfærerne herunder mængden af kulstof de forskellige steder.<br/>Når du klikker på UNDERSØG DETALJER, så kan du klikke videre og se beskrivelser af de forskellige processer. Du får så vist en overordnet forklaring og kan også vælge at se yderligere detaljer.",
         "titel": "Nytårsforsætter"
     },
-    "overlays": [{
-
+    "sfaerer_labels": [{
+        "label": "Atmosfæren",
+        "txt": ["Luften der befinder sig rundt om jorden ud til 1000 km’s højde, men det meste er i de nederste 10 km","Kuldioxid (CO<sub>2</sub>)<br/>Metan (CH<sub>4</sub>)","762 Gt (1 Gt = 1 mia. tons)"],
+        "label_position": ["36.8", "9.5"]
+    }, {
+        "label": "Hydrosfæren",
+        "txt": ["Oceaner, søer, floder og grundvand","",""],
+        "label_position": ["48.8", "86.5"]
+    }, {
+        "label": "Biosfæren",
+        "txt": ["Planter, dyr og mikroorganismer","",""],
+        "label_position": ["17.8", "71.5"]
+    }, {
+        "label": "Litosfæren",
+        "txt": ["Bjergarter og fossile brændsler (kul, olie og gas)","",""],
+        "label_position": ["62.8", "57.5"]
     }],
     "zoom_punkter": [{
         "simplegif_position": ["10.8", "64.5"],
