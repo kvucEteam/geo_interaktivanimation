@@ -83,7 +83,7 @@
 .zoom_pic {}
 
 .img_container {
-    margin-top: -50px;
+    margin-top: -25px;
 }
 
 .btn-zoom-left {
@@ -99,7 +99,9 @@
     right: 0;
 }
 
-.exp_container {}
+.exp_container {
+    margin-top: -5px;
+}
 
 .exp_tekst_container {
     background-color: #F8F8F6;
@@ -107,8 +109,9 @@
     border-top: none;
     margin-top: 0px;
     overflow: auto;
-    border-radius: 4px;
-    padding: 10px;
+    border-radius: 0px 4px 4px 4px;
+    padding: 0px 0px 10px 10px;
+    z-index: 9;
 }
 
 .btn-view-toggle {
@@ -148,6 +151,7 @@
     color:black;
     font-weight: bold;
     cursor: pointer;
+    padding: 10px;
 }
 
 .vuc-primary-active, .vuc-primary-hover {
@@ -166,7 +170,7 @@
     margin-top: 5px;
 }
 
-.btn-xs{
+.btn-xs_toggle{
     /* color:red; */
     margin-top: 7px;
     padding-top: 3px;

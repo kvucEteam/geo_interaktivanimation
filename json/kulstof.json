@@ -41,7 +41,7 @@
         }]
     }, {
         "simplegif_position": ["165.5", "13.5"],
-        "label_position": ["66.7", "75"],
+        "label_position": ["66.7", "77"],
 
         "simple_gif": "simplegif/vulkanudbrud.png",
         "header": "Forvitring af bjerarter",
@@ -112,7 +112,7 @@
         }]
     }, {
         "simplegif_position": ["32.2", "84"],
-        "label_position": ["30.7", "94"],
+        "label_position": ["30.7", "93"],
 
         "simple_gif": "simplegif/fossilebraendsler_algerdannelse.png",
         "header": "Olie- og gasdannelse",
@@ -129,7 +129,7 @@
         }]
     }, {
         "simplegif_position": ["46", "50.4"],
-        "label_position": ["46", "66"],
+        "label_position": ["46", "68"],
 
         "simple_gif": "simplegif/skovbrand.png",
         "header": "Skovbrand",
@@ -146,7 +146,7 @@
         }]
     }, {
         "simplegif_position": ["13", "80"],
-        "label_position": ["53", "88"],
+        "label_position": ["53", "85"],
 
         "simple_gif": "simplegif/fotosyntese_respiration_vandplanter.png",
         "header": "Kulstofudveksling i havet",
@@ -180,7 +180,7 @@
         }]
     }, {
         "simplegif_position": ["169.2", "53.8"],
-        "label_position": ["58", "52"],
+        "label_position": ["55", "52"],
 
         "simple_gif": "simplegif/fossilebraendsler_bil.png",
         "header": "Kuldannelse",

@@ -139,6 +139,8 @@ function zoomIn(e) {
 
     active_zoom_slide = 0;
 
+    $(".gif").fadeOut(300);
+
     var zp = jsonData.zoom_punkter[active_zoom];
     //
     $panzoom.panzoom('zoom', false, {
@@ -178,7 +180,8 @@ function zoomIn(e) {
 };
 
 function zoomOut(e) {
-    //$(".gif").fadeIn(200);
+    $(".gif").fadeIn(300);
+   
     $(".btn-back").hide();
     $panzoom.panzoom("reset");
     zoomed = false;
