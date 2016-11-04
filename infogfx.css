@@ -29,7 +29,7 @@
 .gui_container {
     position: absolute;
     top: 13%;
-    z-index: 400;
+    z-index: 90;
     /* width: 35%; */
 }
 
@@ -121,6 +121,7 @@
         font-size: 14px;
         border-radius: 0px 6px 6px 0px;
         min-width: 90%;
+        border: 0px;
 }
 
 .png_overlay, .sfaerer_overlay {

@@ -32,9 +32,8 @@ $(document).ready(function() {
 
     $(".carousel-control").click(clickedCarousel);
 
-
-    init();
     detaljer();
+    init();
     sfaerer_labels();
 
 
@@ -60,7 +59,7 @@ $(document).ready(function() {
 function init() {
     $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
     $(".svg_landscape").append("<div class='sfaerer_overlay'><img class='img-responsive' src='svg/sfaerer_overlay.png'></div>");
-    $(".png_overlay, .sfaerer_overlay").hide();
+    $(".detalje_container, .sfaerer_overlay").hide();
     console.log(jsonData);
 }
 
@@ -113,10 +112,10 @@ function sfaerer_labels() {
     $(".sfaerer_label").click(function() {
         var indeks = $(this).index(".sfaerer_label");
 
-        var HTML = "<h3>"+jsonData.sfaerer_labels[indeks].label+"</h3>";
-        HTML +="<div class='col-xs-6'><b>Forklaring</b><br/>"+jsonData.sfaerer_labels[indeks].txt[0]+"</div>";
-        HTML +="<div class='col-xs-6'><b>Eksempel på Kulstof</b><br/>"+jsonData.sfaerer_labels[indeks].txt[1]+ "<br/>";
-        HTML +="<br/><b>Ca.estimater</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
+        var HTML = "<h3>" + jsonData.sfaerer_labels[indeks].label + "</h3>";
+        HTML += "<div class='col-xs-6'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
+        HTML += "<div class='col-xs-6'><b>Eksempel på Kulstof</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
+        HTML += "<br/><b>Ca.estimater</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
 
 
         UserMsgBox("body", HTML);
@@ -181,7 +180,7 @@ function zoomIn(e) {
 
 function zoomOut(e) {
     $(".gif").fadeIn(300);
-   
+
     $(".btn-back").hide();
     $panzoom.panzoom("reset");
     zoomed = false;

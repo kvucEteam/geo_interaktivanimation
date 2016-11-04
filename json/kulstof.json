@@ -11,15 +11,15 @@
         "label_position": ["36.8", "9.5"]
     }, {
         "label": "Hydrosfæren",
-        "txt": ["Oceaner, søer, floder og grundvand","",""],
+        "txt": ["Oceaner, søer, floder og grundvand","Hydrogencarbonat (HCO<sub>3</sub><sup>-</sup>) <br/>Kuldioxid (CO<sub>2</sub>)",""],
         "label_position": ["48.8", "86.5"]
     }, {
         "label": "Biosfæren",
-        "txt": ["Planter, dyr og mikroorganismer","",""],
+        "txt": ["Planter, dyr og mikroorganismer","Kalk (CaCO<sub>3</sub>) (knogler, skaller) <br/>Kulhydrater (C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>)<br/>Fedtstoffer (RCOO-CH<sub>2</sub>CH(-OOCR')CH<sub>2</sub>-OOCR)<br/>Proteiner (CnH2nOn)",""],
         "label_position": ["17.8", "71.5"]
     }, {
         "label": "Litosfæren",
-        "txt": ["Bjergarter og fossile brændsler (kul, olie og gas)","",""],
+        "txt": ["Bjergarter og fossile brændsler (kul, olie og gas)","Kalk (CaCO<sub>3</sub>) <br>Råolie (C<sub>n</sub>H<sub>2n+2</sub>)<br/>Metan (CH<sub>4</sub>)<br/>Kul i mere eller mindre ren form (C)",""],
         "label_position": ["62.8", "57.5"]
     }],
     "zoom_punkter": [{
