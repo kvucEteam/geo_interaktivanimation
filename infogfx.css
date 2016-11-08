@@ -53,6 +53,9 @@
 .detalje_label {
     z-index: 10;
     position: absolute;
+    
+    background-color: #18E6E7;
+    border:none;
 }
 
 .detalje_container{
@@ -70,14 +73,13 @@
 
 .btn-back {
     position: absolute;
-    right: 0;
     cursor: pointer;
     top: 20px;
 }
 
 .zoom_expl {
     padding: 0px;
-    margin-top: -30px;
+    margin-top: -20px;
 }
 
 .zoom_pic {}
@@ -107,11 +109,11 @@
     background-color: #F8F8F6;
     border: 1px solid #ddd;
     border-top: none;
-    margin-top: 0px;
     overflow: auto;
     border-radius: 0px 4px 4px 4px;
-    padding: 0px 0px 10px 10px;
+    padding: 0px 40px 10px 20px;
     z-index: 9;
+    position: absolute;
 }
 
 .btn-view-toggle {
@@ -147,12 +149,14 @@
     background-color: #eee;
     color:#999;
     cursor: pointer;
+    padding: 4px 10px 0px 10px;
 }
 .nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover {
     color:black;
     font-weight: bold;
     cursor: pointer;
-    padding: 10px;
+    padding: 4px 10px 0px 10px;
+    margin-top: 0px;
 }
 
 .vuc-primary-active, .vuc-primary-hover {
@@ -178,5 +182,27 @@
     padding-bottom: 0px;
     height: 32px;
 }
+
+.left-col {
+    margin-left: -4px;
+}
+
+.right-col{
+    margin-left: 4px;
+}
+@media all and (max-width: 1170px) {
+.detalje_label{
+    font-size: 1.7vw;
+  }
+}
+
+@media all and (min-width: 1171px) {
+.detalje_label{
+    font-size: 20px;
+  }
+}
+
+
+
 
 

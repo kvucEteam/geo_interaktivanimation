@@ -16,6 +16,10 @@ var $panzoom = $(".svg_landscape").panzoom({
     },
 });
 
+$(window).resize(function() {
+    resize_text_container();
+});
+
 
 $(document).ready(function() {
 
@@ -59,30 +63,41 @@ $(document).ready(function() {
 function init() {
     $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
     $(".svg_landscape").append("<div class='sfaerer_overlay'><img class='img-responsive' src='svg/sfaerer_overlay.png'></div>");
-    $(".detalje_container, .sfaerer_overlay").hide();
+    $(".sfaerer_overlay").hide();
     console.log(jsonData);
 }
 
 function clickedToggle() {
 
     var indeks = $(this).index(".btn-view-toggle");
+
+    if (indeks > 2){
+        indeks = indeks - 3;
+    }
     $(".btn-view-toggle").removeClass("vuc-primary-active")
     $(this).addClass("vuc-primary-active");
 
+    $(".btn-view-toggle").each(function(){
+
+        console.log("hej");
+
+    });
+
     if (indeks == 0) {
-        $(".png_overlay, .sfaerer_overlay").hide();
+        
         $(".png_overlay").show();
-        $(".detalje_container").hide();
+        //$(".png_overlay, .sfaerer_overlay").hide();
+        //$(".detalje_container").hide();
 
     } else if (indeks == 1) {
-        $(".png_overlay, .sfaerer_overlay").hide();
+        //$(".png_overlay, .sfaerer_overlay").hide();
         $(".sfaerer_overlay").show();
 
-        $(".detalje_container").hide();
+        //$(".detalje_container").hide();
 
         console.log("vis sfærer!");
     } else if (indeks == 2) {
-        $(".png_overlay, .sfaerer_overlay").hide();
+        //$(".png_overlay, .sfaerer_overlay").hide();
         $(".detalje_container").show();
         //$(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
 
@@ -97,10 +112,10 @@ function detaljer() {
         console.log(i + " punkt");
 
         $(".detalje_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
-        $(".detalje_container").append("<div ><img class='img-responsive gif' src=" + zp.simple_gif + "></div>");
+        //$(".detalje_container").append("<div ><img class='img-responsive gif' src=" + zp.simple_gif + "></div>");
 
         $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
-        $(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
+        //$(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
     }
 }
 
@@ -112,9 +127,9 @@ function sfaerer_labels() {
     $(".sfaerer_label").click(function() {
         var indeks = $(this).index(".sfaerer_label");
 
-        var HTML = "<h3>" + jsonData.sfaerer_labels[indeks].label + "</h3>";
-        HTML += "<div class='col-xs-6'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
-        HTML += "<div class='col-xs-6'><b>Eksempel på Kulstof</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
+        var HTML = "<h3><span class='label label-primary'>" + jsonData.sfaerer_labels[indeks].label + "</span></h3>";
+        HTML += "<div class='col-xs-6 left-col'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
+        HTML += "<div class='col-xs-6 right-col'><b>Eksempel på Kulstof</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
         HTML += "<br/><b>Ca.estimater</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
 
 
@@ -126,10 +141,12 @@ function toogleZoomTab() {
     var indeks = $(this).index();
     tab_index = indeks;
     console.log("TZT" + tab_index);
+    $(".zoom_pic").fadeOut(200);
     $(".exp_tekst").slideUp(200, function() {
         $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].txt);
         $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].pic)
         $(".exp_tekst").slideDown(200);
+        $(".zoom_pic").fadeIn(1500);
     });
 }
 
@@ -138,7 +155,7 @@ function zoomIn(e) {
 
     active_zoom_slide = 0;
 
-    $(".gif").fadeOut(300);
+    $(".png_overlay, .gif").fadeOut(300);
 
     var zp = jsonData.zoom_punkter[active_zoom];
     //
@@ -155,7 +172,9 @@ function zoomIn(e) {
 
     if (jsonData.zoom_punkter[active_zoom].slides.length < 2) {
         $(".btn_right").hide();
-        console.log("zoomlength:" + jsonData.zoom_punkter[active_zoom].slides.length);
+        console.log("zoomlength HALLO:" + jsonData.zoom_punkter[active_zoom].slides.length);
+    }else{
+        $(".btn_right").show();
     }
 
     $(".btn_left").hide();
@@ -163,7 +182,7 @@ function zoomIn(e) {
 
 
     console.log($(".container-fluid").height());
-    $(".zoomedIn_container").css("height", $(".container-fluid").height()).fadeIn();
+    $(".zoomedIn_container").css("height", $(".landscape_container").height()).fadeIn();
     //$(".img_container").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
     //$(".zoom_pic").css("height", $(".container-fluid").height() * 0.4); //).fadeIn();
     $(".zoomTitle").html(zp.header);
@@ -175,11 +194,13 @@ function zoomIn(e) {
     $(".exp_tekst").html(zp.slides[active_zoom_slide].tab[tab_index].txt);
     $(".gui_container").fadeOut();
     $(".btn_info_gfx").fadeOut();
+    setTimeout(function() { resize_text_container(); }, 100);
+    
     //$(".gif").fadeOut(0);
 };
 
 function zoomOut(e) {
-    $(".gif").fadeIn(300);
+    $(".png_overlay, .gif").fadeIn(300);
 
     $(".btn-back").hide();
     $panzoom.panzoom("reset");
@@ -187,6 +208,7 @@ function zoomOut(e) {
     $(".zoomedIn_container").fadeOut();
     $(".gui_container").fadeIn();
     $(".btn_info_gfx").fadeIn();
+
 
 };
 
@@ -227,12 +249,19 @@ function clickedCarousel() {
 // Focal zoom:
 function resize_text_container() {
 
-    var div_offset = $(".img_container").height();
+    var container_height = $(".landscape_container").height();
+    var exp_position = $(".exp_container").position();
+    var zoom_position = $(".zoomedIn_container").offset();
+    var elements_height = $(".zoom_pic").css("height");
+    console.log("em: " + elements_height);
 
-    var container_height = $(".container-fluid").height();
-    var remaining_height = container_height - parseInt(div_offset);
 
-    console.log("zoom_pic-height " + div_offset + ", RH: " + remaining_height);
+    var remaining_height = container_height - exp_position.top - 20;
 
+    console.log("EXP_TOP: " + exp_position.top + "  zoom_position: " + zoom_position.top + " RH: " + remaining_height);
 
+    //$(".zoomedIn_container").append("<div class='pos'>HEY!</div>");
+    //$(".pos").css("margin-top", exp_position.top).css("background-color", "red").css("width", 1000 + "px");
+
+    $(".exp_tekst_container").css("max-height", remaining_height + "px");
 }
