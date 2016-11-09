@@ -84,14 +84,23 @@ function clickedToggle() {
     });
 
     if (indeks == 0) {
+        $(".sfaerer_overlay").fadeOut(500, function(){
+        $(".png_overlay, .detalje_container").fadeIn(500);
+            //alert("hej");
+        });
         
-        $(".png_overlay").show();
-        //$(".png_overlay, .sfaerer_overlay").hide();
+        
         //$(".detalje_container").hide();
 
     } else if (indeks == 1) {
+
+        $(".png_overlay, .detalje_container").fadeOut(500, function(){
+        $(".sfaerer_overlay").fadeIn(500);
+            //alert("hej");
+        });
         //$(".png_overlay, .sfaerer_overlay").hide();
-        $(".sfaerer_overlay").show();
+
+        
 
         //$(".detalje_container").hide();
 
