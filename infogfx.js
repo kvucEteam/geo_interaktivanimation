@@ -71,36 +71,36 @@ function clickedToggle() {
 
     var indeks = $(this).index(".btn-view-toggle");
 
-    if (indeks > 2){
+    if (indeks > 2) {
         indeks = indeks - 3;
     }
     $(".btn-view-toggle").removeClass("vuc-primary-active")
     $(this).addClass("vuc-primary-active");
 
-    $(".btn-view-toggle").each(function(){
+    $(".btn-view-toggle").each(function() {
 
         console.log("hej");
 
     });
 
     if (indeks == 0) {
-        $(".sfaerer_overlay").fadeOut(500, function(){
-        $(".png_overlay, .detalje_container").fadeIn(500);
+        $(".sfaerer_overlay").fadeOut(500, function() {
+            $(".png_overlay, .detalje_container").fadeIn(500);
             //alert("hej");
         });
-        
-        
+
+
         //$(".detalje_container").hide();
 
     } else if (indeks == 1) {
 
-        $(".png_overlay, .detalje_container").fadeOut(500, function(){
-        $(".sfaerer_overlay").fadeIn(500);
+        $(".png_overlay, .detalje_container").fadeOut(500, function() {
+            $(".sfaerer_overlay").fadeIn(500);
             //alert("hej");
         });
         //$(".png_overlay, .sfaerer_overlay").hide();
 
-        
+
 
         //$(".detalje_container").hide();
 
@@ -120,26 +120,26 @@ function detaljer() {
         var zp = jsonData.zoom_punkter[i];
         console.log(i + " punkt");
 
-        $(".detalje_container").append("<span class='btn btn-xs btn-default detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
+        $(".detalje_container").append("<span class='btn btn-info detalje_label btn_info_gfx'><span class='glyphicon glyphicon-search'> </span> " + jsonData.zoom_punkter[i].header + "</span>");
         //$(".detalje_container").append("<div ><img class='img-responsive gif' src=" + zp.simple_gif + "></div>");
 
         $(".detalje_label").eq(i).css("left", zp.label_position[0] + "%").css("top", zp.label_position[1] + "%")
-        //$(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
+            //$(".gif").eq(i).css("left", zp.simplegif_position[0] + "%").css("top", zp.simplegif_position[1] + "%")
     }
 }
 
 function sfaerer_labels() {
     for (var i = 0; i < jsonData.sfaerer_labels.length; i++) {
-        $(".sfaerer_overlay").append("<div class='btn btn-info sfaerer_label'>" + jsonData.sfaerer_labels[i].label + "</div>");
+        $(".sfaerer_overlay").append("<div class='btn btn-info sfaerer_label'> <span class='glyphicon glyphicon-info-sign'> </span> " + jsonData.sfaerer_labels[i].label + "</div>");
         $(".sfaerer_label").eq(i).css("left", jsonData.sfaerer_labels[i].label_position[0] + "%").css("top", jsonData.sfaerer_labels[i].label_position[1] + "%"); //.css("top", jsonData.sfaerer_label[i].label_position[1]);
     }
     $(".sfaerer_label").click(function() {
         var indeks = $(this).index(".sfaerer_label");
 
-        var HTML = "<h3><span class='label label-primary'>" + jsonData.sfaerer_labels[indeks].label + "</span></h3>";
+        var HTML = "<h2>" + jsonData.sfaerer_labels[indeks].label + "</h2>";
         HTML += "<div class='col-xs-6 left-col'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
-        HTML += "<div class='col-xs-6 right-col'><b>Eksempel på Kulstof</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
-        HTML += "<br/><b>Ca.estimater</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div>";
+        HTML += "<div class='col-xs-6 right-col'><b>Eksempel på Kulstof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
+        HTML += "<br/><b>Mængde stof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div><div class='tal'>Tal hentet fra Naturgeografi - Jorden og mennesket</div>";
 
 
         UserMsgBox("body", HTML);
@@ -180,13 +180,15 @@ function zoomIn(e) {
     $(".btn-back").fadeIn(1000).click(zoomOut);
 
     if (jsonData.zoom_punkter[active_zoom].slides.length < 2) {
-        $(".btn_right").hide();
+        //$(".btn_right, .btn_left").hide();
+        $(".carousel-control").off().css("opacity", ".2");
         console.log("zoomlength HALLO:" + jsonData.zoom_punkter[active_zoom].slides.length);
-    }else{
-        $(".btn_right").show();
+    } else {
+        $(".carousel-control").eq(1).click(clickedCarousel).css("opacity", ".8");
     }
 
-    $(".btn_left").hide();
+
+
     zoomed = true;
 
 
@@ -204,7 +206,7 @@ function zoomIn(e) {
     $(".gui_container").fadeOut();
     $(".btn_info_gfx").fadeOut();
     setTimeout(function() { resize_text_container(); }, 100);
-    
+
     //$(".gif").fadeOut(0);
 };
 
@@ -223,7 +225,10 @@ function zoomOut(e) {
 
 function clickedCarousel() {
 
+    console.log("clickedCarousel");
+
     var carousel_length = jsonData.zoom_punkter[active_zoom].slides.length;
+
     var indeks = $(this).index(".carousel-control");
 
     if (indeks == 0) {
@@ -245,11 +250,17 @@ function clickedCarousel() {
     });
 
     if (active_zoom_slide == 0) {
-        $(".btn_left").hide();
+        $(".carousel-control").off();
+        $(".carousel-control").eq(0).css("opacity", ".2");
+        $(".carousel-control").eq(1).click(clickedCarousel).css("opacity", ".8");
     } else if (active_zoom_slide >= carousel_length - 1) {
-        $(".btn_right").hide();
+        $(".carousel-control").off();
+        $(".carousel-control").eq(0).click(clickedCarousel).css("opacity", ".8");
+        $(".carousel-control").eq(1).css("opacity", ".2");
+
     } else {
-        $(".btn_right, .btn_left").show();
+        $(".carousel-control").off();
+        $(".carousel-control").click(clickedCarousel).css("opacity", ".8");;
     }
 
 

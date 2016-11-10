@@ -49,7 +49,6 @@
 .detalje_label {
     z-index: 10;
     position: absolute;
-    background-color: #18E6E7;
     border: none;
 }
 
@@ -70,6 +69,7 @@
     position: absolute;
     cursor: pointer;
     top: 20px;
+    left: 20px;
 }
 
 .zoom_expl {
@@ -80,7 +80,7 @@
 .zoom_pic {}
 
 .img_container {
-    margin-top: -25px;
+    margin-top: 0px;
 }
 
 .btn-zoom-left {
@@ -146,6 +146,7 @@
     color: #999;
     cursor: pointer;
     padding: 4px 10px 0px 10px;
+    z-index: 0;
 }
 
 .nav-tabs>li.active>a,
@@ -184,27 +185,51 @@
 }
 
 .left-col {
-    margin-left: -4px;
+    margin-left: -14px;
 }
 
 .right-col {
-    margin-left: 4px;
+    margin-left: 14px;
 }
 
 @media all and (max-width: 1170px) {
-    .detalje_label {
-        font-size: 1.3vw;
-    }
+    .detalje_label,
+    .sfaerer_label,
     .btn-view-toggle {
         font-size: 1.3vw;
     }
 }
 
 @media all and (min-width: 1171px) {
-    .detalje_label {
-        font-size: 20px;
-    }
+    .detalje_label,
+    .sfaerer_label,
     .btn-view-toggle {
         font-size: 14px;
     }
+}
+
+#UserMsgBox {
+    padding-bottom: 60px;
+}
+
+.carousel-control .glyphicon {
+    font-size: 20px;
+    top: 50%;
+    color: #fff;
+    background-color: #05A0A8;
+    opacity: .9;
+    height: 40px;
+    width: 40px;
+    padding: 5px;
+    line-height: 30px;
+    border-radius: 30px;
+    display: block;
+    text-align: center;
+}
+
+.tal {
+    color: #777;
+    position: absolute;
+    bottom: 10px;
+    font-size: 11px;
 }

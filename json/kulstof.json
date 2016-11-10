@@ -15,7 +15,7 @@
         "label_position": ["48.8", "86.5"]
     }, {
         "label": "Biosfæren",
-        "txt": ["Planter, dyr og mikroorganismer", "Kalk (CaCO<sub>3</sub>) (knogler, skaller) <br/>Kulhydrater (C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>)<br/>Fedtstoffer (RCOO-CH<sub>2</sub>CH(-OOCR')CH<sub>2</sub>-OOCR)<br/>Proteiner (CnH2nOn)", "550 Gt i levende organismer (1 Gt = 1 mia. tons)"],
+        "txt": ["Planter, dyr og mikroorganismer", "Kalk (CaCO<sub>3</sub>) (knogler, skaller) <br/>Kulhydrater (C<sub>n</sub>H<sub>2n</sub>O<sub>n</sub>)<br/>Fedtstoffer (RCOO-CH<sub>2</sub>CH(-OOCR')CH<sub>2</sub>-OOCR)<br/>Proteiner (CnH<sub>2</sub>nOn)", "550 Gt i levende organismer (1 Gt = 1 mia. tons)"],
         "label_position": ["17.8", "71.5"]
     }, {
         "label": "Litosfæren",
@@ -71,7 +71,7 @@
                 "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også i alger, svampe og bakterier. Respiration frigiver kulstof fra biosfæren til atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_respiration_kemi.png",
-                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H<sub>2</sub><sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
             }]
         }]
     }, {
@@ -94,7 +94,7 @@
             "overskrift": ["2 Subduktion af oceanbundsplade"],
             "tab": [{
 
-                "pic": "animatedgif/bigGIF_vulkan_aflejring_kemi.png",
+                "pic": "animatedgif/bigGIF_vulkan_afgasning_info.png",
                 "txt": "Ved en subduktionszone synker oceanbundspladen ned under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur kan føre til en afgasning af kalken i form af CO<sub>2</sub>. Ofte indgår den opsmeltede kalk som komponenter i den nedsynkende oceanbundsplade, og kulstoffet bliver altså under jordens overflade."
             }, {
                 "pic": "animatedgif/bigGIF_vulkan_afgasning_kemi.png",
@@ -104,10 +104,10 @@
             "overskrift": ["3 Vulkanudbrud"],
             "tab": [{
 
-                "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
+                "pic": "animatedgif/bigGIF_vulkan_udbrud_info.png",
                 "txt": "CO<sub>2</sub> og den afgassede kalk og kommer ud på jordoverfladen og i atmosfæren ved et vulkanudbrud."
             }, {
-                "pic": "animatedgif/bigGIF_vulkan_udbrud_info.png",
+                "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
                 "txt": "En stor del CO<sub>2</sub> udledes fra vulkanudbruddet og bliver en del af atmosfæren. Kalken udledes som en del af en basisk bjergart, hvor en mindre del kulstof kan komme ud på jordoverfladen som lava, tefra eller aske."
             }]
         }]
@@ -144,7 +144,7 @@
                 "pic": "animatedgif/bigGIFoliegasdannelse3_info.png",
                 "txt": "Når olien og gassen er dannet bevæger den sig op gennem reservoirbjergarten, da den har mindre massefylde end vand. Denne bevægelse kaldes migration. Hermed udfyldes porerne i havbundens bjergarter med olie i stedet for vand.<br/>Olien og gassen stoppes, hvis den møder en ikke permeabel bjergart. Det vil sige, at olien og gassen ikke kan trænge igennem bjergarten og derfor samles under denne."
             }, {
-                "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
+                "pic": "animatedgif/bigGIFoliegasdannelse3_kemi.png",
                 "txt": "Hvis man  leder efter olie, leder man efter specifikke lag i en bestemt rækkefølge:<li>Der skal først være aflejret en kildebjergart, der typisk består af lersten, skifer eller kalk. Kildebjergarten er den bjergart, der indeholder det organiske materiale, der omdannes til olie og gas.</li><li>Ovenpå skal der aflejres en reservoirbjergart, der kan bestå af kalk eller sandsten. Det der kendetegner reservoirbjergarten er, at den har en høj porøsitet, så den kan indeholde meget olie og gas, samt en høj permeabilitet, så olien og gassen kan passere igennem.</li> <li>Til sidst skal der være et segl, der er en ikke-permeabel bjergart, så olien og gassen tilbageholdes. Seglet består typisk af ler, skifer eller salt.</li>"
             }]
         }]
@@ -158,10 +158,10 @@
         "slides": [{
             "overskrift": [""],
             "tab": [{
-                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "pic": "animatedgif/bigGIF_kuldannelse.png",
                 "txt": "Kul dannes typisk i en mose, dvs. hvor vandspejlet er højt, og der er lille eller ingen tilførsel af ilt fra strømmende vand. <br/>Udgangsmaterialet for kul er døde planter, der ikke nedbrydes, men aflejres ovenpå hinanden. <br/>Mosen er levende på den måde, at der vokser planter på overfladen og bidrager med nye organisk lag hele tiden. <br/>Jo varmere klimaet er desto hurtigere dannes de organiske lag. Når lagene presses sammen ved vægten fra de overliggende lag fører det til en tryk- og temperaturstigning. Derved ændres plantematerialet til tørv, brunkul, stenkul og antracit i den givne rækkefølge, der typisk ligger i lag. <br/>Det tager mindst 10 millioner år at danne kul, men typisk tager det flere hundrede millioner år."
             }, {
-                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "pic": "animatedgif/bigGIF_kuldannelse.png",
                 "txt": "Lagenes tæthed afhænger af hvor stort et tryk de har været udsat for. Dvs. at vandindholdet i laget falder med dybden samtidigt med at kulstofindholdet stiger. Således har tørv et relativt stor vandindhold, men et lavt indhold af kulstof. Modsat stenkul, der har et relativt lavt vandindhold, men et højt indhold af kulstof."
             }]
         }]
@@ -175,10 +175,10 @@
         "slides": [{
             "overskrift": [""],
             "tab": [{
-                "pic": "animatedgif/bigGIF_respiration_info.png",
+                "pic": "animatedgif/bigGIFindvinding_fossile_info.png",
                 "txt": "Olie og gas indvindes fra undergrunden både på land og til havs. De organiske afleveringer, der er dannet i vandområder, kan senere findes i et landområde pga. ændret havniveau og/eller sediment tilførsel. <br/>Kul brydes kun på land. I dag er der primært tale om åbne miner. Vi anvender hovedsageligt  kul til kraftværkerne, men der er ved at ske en omstilling til gas, der udleder mindre CO<sub>2</sub>.<br/>Olien anvendes til benzin, diesel, fyringsolie, plastic, asfalt mm. Når vi afbrænder fossile brændsler er det en øjeblikkelig reaktion, hvor der udledes CO<sub>2</sub>"
             }, {
-                "pic": "animatedgif/bigGIF_respiration_kemi.png",
+                "pic": "animatedgif/bigGIFindvinding_fossile_kemi.png",
                 "txt": "Brændværdien af kul bestemmes af indholdet af kulstof pr. cm3. Jo større mængde kulstof desto højere brændværdi.<br/>Udnyttelsesgraden af olie afhænger af længden på de kulstofkæder der indgår. Kortere kæder er bedst, da længere kæder kræver større efterbehandling, for at kunne anvendes.<br/>Benzins forbrændingsreaktion: 2C<sub>8</sub>H<sub>18</sub>+25O<sub>2</sub> → 16CO<sub>2</sub>+18H<sub>2</sub>O<br/>Naturgas (metan) forbrændingsreaktion: CH<sub>4</sub> +  2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O <br/>    Kul forbrændingsreaktion: C+O<sub>2</sub> → CO<sub>2</sub>"
             }]
         }]
@@ -195,7 +195,7 @@
                 "pic": "animatedgif/bigGIF_metan1_info.png",
                 "txt": "I områder med stillestående vand som moser, søer og rismarker, kan der ske bakteriel nedbrydning af organisk materiale i et iltfrit miljø. Dette resulterer i metanafgivelse. Processens hastighed øges ved stigende temperatur. <br/>Der sker den samme proces i drøvtyggeres tarmsystem. Drøvtyggere som køer, geder og får frigiver metan i forbindelse med deres fordøjelse. Det sker under anaerobe forhold, og metanen kommer ud, når dyrene bøvser og prutter."
             }, {
-                "pic": "animatedgif/bigGIF_metan1_info.png",
+                "pic": "animatedgif/bigGIF_metan1_kemi.png",
                 "txt": "Ris dyrkes typisk i vanddækkede områder. Moser er ligeledes vegetationsdækkede områder med højt vandspejl. Da vandet er stillestående, tilføres der ikke ilt fra atmosfæren. Nedbrydningsprocessen vil derfor ske anaerobt: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O.<br/>I drøvtyggeres maver sker der, ved hjælp af mikroorganismer, en nedbrydning fra kulhydrater til metan i et anaerobt miljø: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O."
             }]
         }, {
@@ -204,7 +204,7 @@
                 "pic": "animatedgif/bigGIF_metan2_info.png",
                 "txt": "I arktiske områder f.eks. Alaska og Sibirien er der store frosne moseområder. Så længe de er frosne er der ingen udledning, ved optøning begynder nedbrydningen og udledningen af metan. "
             }, {
-                "pic": "animatedgif/bigGIF_metan2_info.png",
+                "pic": "animatedgif/bigGIF_metan2_kemi.png",
                 "txt": "Store dele af moseområderne er permefrosne. Dvs. det er kun det øverste lag (kaldet aktivlaget), der når at tø op om sommeren.  Resten kan være frosset ned til 2 km’s dybde hele året . <br/>Når der sker en optøning begynder nedbrydningen, der er beskrevet ved reaktionen: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O"
             }]
         }]
@@ -218,11 +218,11 @@
         "slides": [{
             "overskrift": [""],
             "tab": [{
-                "pic": "animatedgif/bigGIF_respiration_info.png",
-                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+                "pic": "animatedgif/bigGIFskovafbraending_info.png",
+                "txt": " I nogle dele af verden ryddes store skovområder for at jorden kan udnyttes til landbrugsproduktion. Længere tids tørke i et skovområde kan også føre til at der sker en selvantænding. Når skovområder ryddes brændes træet ofte af. Den mængde kulstof, der er optaget i planterne, vil så frigives til atmosfæren som CO<sub>2</sub>."
             }, {
-                "pic": "animatedgif/bigGIF_respiration_kemi.png",
-                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+                "pic": "animatedgif/bigGIFskovafbraending_kemi.png",
+                "txt": "Der sker primært skovrydning i tropiske områder f.eks. i regnskovsområderne i Brasilien, hvor man fælder eller brænder skov for at få plads til at dyrke f.eks. sojabønner. Derved bindes der meget mindre kulstof i planterne i disse områder.<br/>Antallet af naturligt skabte skovbrande hænger sammen med temperaturen og nedbørsmængden. Generelt vil en højere temperatur og mindre nedbør således betyde flere skovbrande. Der kan f.eks. ses skovbrande på høje breddegrader i bl.a. Canada og Sibirien pga. tørke."
             }]
         }]
     }, {
@@ -235,11 +235,11 @@
         "slides": [{
             "overskrift": [""],
             "tab": [{
-                "pic": "animatedgif/bigGIF_respiration_info.png",
-                "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også iI alger, svampe og bakterier foregår processen også."
+                "pic": "animatedgif/bigGIF_havet1_info.png",
+                "txt": "Udvekslingen af kulstof mellem havet og atmosfæren sker på flere forskellige måder. Dels sker der en indpiskning af kuldioxid i havet sammen med ilt fra atmosfæren. Dels sker der en termisk og en biologisk udveksling.<br/>Indholdet af gasser i vand er afhængigt af temperaturen. Koldt vand kan indeholde flere gasser, det betyder at der optages mere CO<sub>2</sub> i kolde oceaner ved polerne, og der frigives CO<sub>2</sub> i varme oceaner ved Ækvator. Den CO<sub>2</sub> der optages i vandet befinder sig især i de øverste 400 m<br/>Når vandet fryser bliver gasser som CO<sub>2</sub> presset ud af det og bliver i det resterende havvand. Dette sker bl.a. ved Grønland, hvor gasserne forsvinder med det kolde vand ned i dybhavet. Når der smelter is om sommeren, så bliver vandet undermættet med CO<sub>2</sub> og kan derfor optage CO<sub>2</sub> fra atmosfæren."
             }, {
-                "pic": "animatedgif/bigGIF_respiration_kemi.png",
-                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H2<sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+                "pic": "animatedgif/bigGIF_havet1_kemi.png",
+                "txt": "Oceanerne involverer en meget stor andel af kulstofudvekslingen i kredsløbet. Når temperaturen stiger i havet rykkes den termiske ligevægt og gasformer favoriseres. De frigives derfor, og det modsatte sker ved afkøling.<br/>Det meste kulstof i oceanerne findes i form af hydrogenkarbonat HCO3- (uorganisk kulstof) fordi CO<sub>2</sub> reagerer med H<sub>2</sub>O og danner H<sub>2</sub>CO<sub>3</sub><br/> CO<sub>2</sub> + H<sub>2</sub>O ↔ H<sub>2</sub>CO<sub>3</sub> ↔ H+ + HCO<sub>3</sub><sup>-</sup>, kun en lille andel er bundet i levende organismer."
             }]
         }]
     }]
