@@ -178,12 +178,11 @@ function zoomIn(e) {
     console.log("zoomlength:" + jsonData.zoom_punkter[active_zoom].slides.length);
 
     $(".btn-back").fadeIn(1000).click(zoomOut);
-
     if (jsonData.zoom_punkter[active_zoom].slides.length < 2) {
-        //$(".btn_right, .btn_left").hide();
-        $(".carousel-control").off().css("opacity", ".2");
-        console.log("zoomlength HALLO:" + jsonData.zoom_punkter[active_zoom].slides.length);
+        $(".carousel-control").off().css("opacity", "0");
+        console.log("Der skal inegn knapper være..!");
     } else {
+        $(".carousel-control").off().css("opacity", ".2");
         $(".carousel-control").eq(1).click(clickedCarousel).css("opacity", ".8");
     }
 

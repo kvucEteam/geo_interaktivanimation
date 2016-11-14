@@ -24,7 +24,7 @@
 
 .gui_container {
     position: absolute;
-    top: 13%;
+    top: 4%;
     z-index: 90;
     /* width: 35%; */
 }
