@@ -2,7 +2,7 @@
     "userInterface": {
         "header": "Bevægelser i teksten 1",
         "explanation": "Formålet med øvelsen er at få et indblik i hvordan kulstof bevæger sig mellem de forskellige sfærer. Der er tale om et kredsløb, hvor Jordens samlede mængde kulstof er konstant. Jordens samlede mængde kulstof  er usikker, specielt fordi de geologiske lagres størrelse er ukendt.<br>Mængden af kulstof i sfærerne varierer, og denne variation er ikke konstant, men er afhængig af menneskelige aktiviteter, vulkanudbrud, global temperatur, plantevækst mm.",
-        "instruktion": "Vælg mellem at få vist en oversigt over kulstofkredsløbet, sfærerne og de enkelte processer.",
+        "instruktion": "Se kulstofkredsløbet og undersøg de enkelte processer. Du kan også få mere information om de forskellige sfærer.",
         "titel": "Nytårsforsætter"
     },
     "sfaerer_labels": [{
