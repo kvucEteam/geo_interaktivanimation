@@ -1,7 +1,7 @@
 {
     "userInterface": {
         "header": "Bevægelser i teksten 1",
-        "explanation": "Formålet med øvelsen er at få et indblik i hvordan kulstof bevæger sig mellem de forskellige sfærer. Der er tale om et kredsløb, hvor Jordens samlede mængde kulstof er konstant. Jordens samlede mængde kulstof  er usikker, specielt fordi de geologiske lagres størrelse er ukendt.<br>Mængden af kulstof i sfærerne varierer, og denne variation er ikke konstant, men er afhængig af menneskelige aktiviteter, vulkanudbrud, global temperatur, plantevækst mm.",
+        "explanation": "Formålet med øvelsen er at få et indblik i hvordan kulstof bevæger sig mellem de forskellige sfærer. Der er tale om et kredsløb, hvor Jordens samlede mængde kulstof er konstant, men den faktiske mængde er usikker, specielt fordi de geologiske lagres størrelse er ukendt.<br/>Mængden af kulstof i sfærerne varierer, og denne variation er ikke konstant, men er afhængig af menneskelige aktiviteter, vulkanudbrud, global temperatur, plantevækst mm.",
         "instruktion": "Se kulstofkredsløbet og undersøg de enkelte processer. Du kan også få mere information om de forskellige sfærer.",
         "titel": "Nytårsforsætter"
     },
@@ -37,7 +37,7 @@
                 "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese. <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
             }, {
                 "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
-                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 (sollys - over pilen) → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
+                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
             }]
         }]
     }, {

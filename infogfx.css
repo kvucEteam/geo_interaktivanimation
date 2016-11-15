@@ -169,6 +169,7 @@
     position: absolute;
     top: 30%;
     left: 20%;
+    z-index: 10;
 }
 
 .lille_toggle_text {
@@ -232,4 +233,17 @@
     position: absolute;
     bottom: 10px;
     font-size: 11px;
+}
+
+.glyphicon-info-sign {
+    position: relative;
+    top: 2px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    right: 5px;
+    color: #666;
 }

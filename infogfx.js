@@ -37,9 +37,10 @@ $(document).ready(function() {
     $(".carousel-control").click(clickedCarousel);
 
     detaljer();
-    init();
+
     sfaerer_labels();
 
+    init();
 
     $('.btn_info_gfx').on('click touchstart', function(e) {
 
@@ -57,13 +58,26 @@ $(document).ready(function() {
         }
     });
 
+    $(".sfaerer_label").on('click touchstart', function(e) {
+        console.log("Clicked sfaerer_knap");
+        var indeks = $(this).index(".sfaerer_label");
+
+        var HTML = "<h2>" + jsonData.sfaerer_labels[indeks].label + "</h2>";
+        HTML += "<div class='col-xs-6 left-col'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
+        HTML += "<div class='col-xs-6 right-col'><b>Eksempel på Kulstof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
+        HTML += "<br/><b>Mængde stof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div><div class='tal'>Estimater. Tal hentet fra Naturgeografi - Jorden og mennesket, Geografforlaget 2007</div>";
+
+
+        UserMsgBox("body", HTML);
+    });
+
 
 });
 
 function init() {
     $(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
     $(".svg_landscape").append("<div class='sfaerer_overlay'><img class='img-responsive' src='svg/sfaerer_overlay.png'></div>");
-    $(".sfaerer_overlay").hide();
+    $(".sfaerer_overlay, .sfaere_container").hide();
     console.log(jsonData);
 }
 
@@ -84,7 +98,7 @@ function clickedToggle() {
     });
 
     if (indeks == 0) {
-        $(".sfaerer_overlay").fadeOut(500, function() {
+        $(".sfaerer_overlay, .sfaere_container").fadeOut(500, function() {
             $(".png_overlay, .detalje_container").fadeIn(500);
             //alert("hej");
         });
@@ -95,21 +109,16 @@ function clickedToggle() {
     } else if (indeks == 1) {
 
         $(".png_overlay, .detalje_container").fadeOut(500, function() {
-            $(".sfaerer_overlay").fadeIn(500);
+            $(".sfaerer_overlay, .sfaere_container").fadeIn(500);
             //alert("hej");
         });
-        //$(".png_overlay, .sfaerer_overlay").hide();
+        $(".png_overlay, .sfaerer_overlay").hide();
 
 
 
         //$(".detalje_container").hide();
 
         console.log("vis sfærer!");
-    } else if (indeks == 2) {
-        //$(".png_overlay, .sfaerer_overlay").hide();
-        $(".detalje_container").show();
-        //$(".svg_landscape").append("<img class='img-responsive png_overlay' src='svg/pile_overlay.png'>");
-
     }
 
 }
@@ -129,21 +138,12 @@ function detaljer() {
 }
 
 function sfaerer_labels() {
+    $(".svg_landscape").append("<div class='sfaere_container'></div>");
     for (var i = 0; i < jsonData.sfaerer_labels.length; i++) {
-        $(".sfaerer_overlay").append("<div class='btn btn-info sfaerer_label'> <span class='glyphicon glyphicon-info-sign'> </span> " + jsonData.sfaerer_labels[i].label + "</div>");
+        $(".sfaere_container").append("<div class='btn btn-info sfaerer_label'> <span class='glyphicon glyphicon-info-sign'> </span> " + jsonData.sfaerer_labels[i].label + "</div>");
         $(".sfaerer_label").eq(i).css("left", jsonData.sfaerer_labels[i].label_position[0] + "%").css("top", jsonData.sfaerer_labels[i].label_position[1] + "%"); //.css("top", jsonData.sfaerer_label[i].label_position[1]);
     }
-    $(".sfaerer_label").click(function() {
-        var indeks = $(this).index(".sfaerer_label");
 
-        var HTML = "<h2>" + jsonData.sfaerer_labels[indeks].label + "</h2>";
-        HTML += "<div class='col-xs-6 left-col'><b>Forklaring</b><br/>" + jsonData.sfaerer_labels[indeks].txt[0] + "</div>";
-        HTML += "<div class='col-xs-6 right-col'><b>Eksempel på Kulstof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[1] + "<br/>";
-        HTML += "<br/><b>Mængde stof i sfæren:</b><br/>" + jsonData.sfaerer_labels[indeks].txt[2] + "</div><div class='tal'>Tal hentet fra Naturgeografi - Jorden og mennesket</div>";
-
-
-        UserMsgBox("body", HTML);
-    });
 }
 
 function toogleZoomTab() {
@@ -242,7 +242,7 @@ function clickedCarousel() {
 
         $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].pic);
         $(".exp_header").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].overskrift);
-        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide][2 + tab_index]);
+        $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].txt);
         $(".zoom_expl").fadeIn(400);
 
         //resize_text_container();
