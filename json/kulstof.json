@@ -54,7 +54,7 @@
                 "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
             }, {
                 "pic": "animatedgif/bigGIFforvitringbjergarter_kemi.png",
-                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af silikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
+                "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af calciumsilikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
             }]
         }]
     }, {
@@ -85,7 +85,7 @@
             "overskrift": ["1 Kalkdannelse"],
             "tab": [{
                 "pic": "animatedgif/bigGIF_vulkan_aflejring_info.png",
-                "txt": "For at der kan udledes kulstof fra et vulkanudbrud skal der først være dannet kalk. <br/>På havbunden dannes kalken, som følge af aflejringen af skaller og skeletter fra døde organismer. Ved et stigende tryk og temperatur omdannes disse til en fast bjergart. Processen tager mange tusinde år."
+                "txt": "En del af det kulstof, der udledes fra et vulkanudbrud er først bundet i kalk på havbunden. På havbunden dannes kalken, som følge af aflejringen af skaller og skeletter fra døde organismer. Ved et stigende tryk og temperatur omdannes disse til en fast bjergart. Processen tager mange tusinder til millioner år."
             }, {
                 "pic": "animatedgif/bigGIF_vulkan_aflejring_kemi.png",
                 "txt": "Kulstoffet anvendes i opbygningen af kalkskeletter. Når organismerne dør falder de ned på havbunden. Der aflejres  sedimenter oven på kalkskeletter og skaller og derfor stiger trykket og temperaturen. Dette medfører at partiklerne “smelter” sammen og danner en sammenhængende fast bjergart. <br/>Kalken på havbunden kan også dannes ved, at havvand inddampes og vandets indhold af opløste salte udfældes i en bestemt rækkefølge. Det første der udfældes er de to kulstofholdige salte kalk (CaCO<sub>3</sub>) og dernæst dolomit (CaMg(CO<sub>3</sub>)<sub>2</sub>)"
@@ -95,20 +95,20 @@
             "tab": [{
 
                 "pic": "animatedgif/bigGIF_vulkan_afgasning_info.png",
-                "txt": "Ved en subduktionszone synker oceanbundspladen ned under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur kan føre til en afgasning af kalken i form af CO<sub>2</sub>. Ofte indgår den opsmeltede kalk som komponenter i den nedsynkende oceanbundsplade, og kulstoffet bliver altså under jordens overflade."
+                "txt": "Ved en subduktionszone synker oceanbundspladen ned under en anden plade. Derved føres den dannede kalk med havbunden ned og den stigende temperatur kan føre til en afgasning af kalken i form af CO<sub>2</sub>. Ofte indgår den nedbrudte kalk som komponenter i den nedsynkende oceanbundsplade, og kulstoffet bliver altså under jordens overflade."
             }, {
                 "pic": "animatedgif/bigGIF_vulkan_afgasning_kemi.png",
-                "txt": "Pga. opvarmningen, når oceanbundspladen synker ned, kan der ske en omdannelse af kalken til afgasset kalk (brændt kalk) og kuldioxid, altså: CaCO<sub>3</sub> → CaO + CO<sub>2</sub>.<br/>Alternativt indgår CaCO<sub>3</sub> i den kemiske sammensætning af astenosfæren."
+                "txt": "Pga. opvarmningen, når oceanbundspladen synker ned under en anden plade, kan der ske en omdannelse af kalken til afgasset kalk (brændt kalk) og kuldioxid, altså: CaCO<sub>3</sub> → CaO + CO<sub>2</sub>.<br/>Alternativt indgår CaCO<sub>3</sub> i den kemiske sammensætning af astenosfæren."
             }]
         }, {
             "overskrift": ["3 Vulkanudbrud"],
             "tab": [{
 
                 "pic": "animatedgif/bigGIF_vulkan_udbrud_info.png",
-                "txt": "CO<sub>2</sub> og den afgassede kalk og kommer ud på jordoverfladen og i atmosfæren ved et vulkanudbrud."
+                "txt": "CO<sub>2</sub> fra den afgassede kalk og kommer ud på jordoverfladen og i atmosfæren ved et vulkanudbrud."
             }, {
                 "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
-                "txt": "En stor del CO<sub>2</sub> udledes fra vulkanudbruddet og bliver en del af atmosfæren. Kalken udledes som en del af en basisk bjergart, hvor en mindre del kulstof kan komme ud på jordoverfladen som lava, tefra eller aske."
+                "txt": "Der udledes CO<sub>2</sub> udledes fra vulkanudbruddet og bliver en del af atmosfæren. Lavaen eller andre vulkanske udbrudsprodukter indeholder ikke noget kulstof."
             }]
         }]
     }, {
@@ -122,27 +122,27 @@
             "overskrift": ["1 Aflejring af organisk lag i havet"],
             "tab": [{
                 "pic": "animatedgif/bigGIFoliegasdannelse1_info.png",
-                "txt": "Olie dannes typisk under havbunden. Udgangsmaterialet for olie er især mikroorganismerne alger og plankton. <br/>Processen starter med at der aflejres organismer på havbunden. Disse presses sammen i et sammenhængende organisk lag i form af kalk eller skifer"
+                "txt": "Olie dannes typisk under havbunden. Udgangsmaterialet for olie er især mikroorganismerne alger og plankton. <br/>Processen starter med at der aflejres organismer på havbunden. Disse presses sammen i et sammenhængende lag i form af kalksten eller skifer, der indeholder store koncentrationer af organisk materiale."
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse1_kemi.png",
-                "txt": "Kulstoffet i alger, plankton og andre organismer aflejres på bunden af havet, hvor der er et meget lille iltindhold, og derfor er nedbrydningen langsom. Derfor ophobes det organiske lag på bunden. Der er typisk tale om kalklag og skifer; sammenpresset ler med et organisk indhold på 2-5%. Processen tager flere tusinde år."
+                "txt": "Kulstoffet i alger, plankton og andre organismer aflejres på bunden af havet, hvor der er et meget lille iltindhold, og derfor er nedbrydningen langsom. Derfor ophobes det organiske lag på bunden. Der er typisk tale om kalklag og skifer; sammenpresset ler med et organisk indhold på 2-5%. Aflejringsprocessen tager flere tusinde år."
             }]
         }, {
             "overskrift": ["2 Indsynkning - aflejring - oliedannelse"],
             "tab": [{
 
                 "pic": "animatedgif/bigGIFoliegasdannelse2_info.png",
-                "txt": "Der aflejres 2-5 km sediment (f.eks. sand, ler og grus) ovenpå det organiske lag, hvilket medfører at temperaturen stiger til 60-150°C. Dette medfører, at det organiske lag omdannes til olie."
+                "txt": "Der aflejres 2-5 km sediment (f.eks. sand, ler og grus) ovenpå de sedimenter, der indeholder det organiske materiale, vil temperaturen stiger til 60-150<sup>°</sup>C. Dette medfører, at det organiske materiale kan omdannes til olie og/eller gas. "
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse2_kemi.png",
-                "txt": "Hvis havbunden strækkes udtyndes den, og derved sker der en indsynkning. Der aflejres erosionsmateriale ovenpå, så temperaturen og trykket stiger. Som følge af dette dannes olie og gas. Processen kan tage mio. af år.<br/>Dybden det organiske lag begraves i afgør, om der dannes olie eller gas. Der dannes olie i 2-5 km’s dybde og gas (Typisk metan CH<sub>4</sub>) i 5-10 km’s dybde svarende til hhv. 60-150 grader C og 150-220 grader C. Ved større dybder omdannes det organiske lag til grafit (C).<br/>Dannelsen af råolie kan ske ved processen: CaCO<sub>3</sub> + H<sub>2</sub>O → Ca <sup>2+</sup> + C<sub>n</sub>H<sub>2n+2</sub>, her er C<sub>n</sub>H<sub>2n+2</sub> den generelle formel for råolie."
+                "txt": " Hvis havbunden strækkes udtyndes den, og derved sker der en indsynkning. Der aflejres erosionsmateriale ovenpå, så temperaturen og trykket stiger. Processen kan tage mio. af år.<br>Dybden det organiske lag begraves i og typen af det organiske materiale afgør, om der dannes olie eller gas. Der dannes olie i 2-5 km’s dybde og gas (f.eks. metan CH4) i 5-10 km’s dybde svarende til hhv. 60-150 grader C og 150-220 grader C. Ved større dybder omdannes det organiske lag til grafit (C). <br/>Dannelsen af olie og gas sker ved nedbrydning af alger og plantemateriale. Dele af disse organismer indeholder C-H forbindelser. Disse C-H forbindelser omstruktureres under anerobe betingelser til olie/gas . Olie og gas er organiske forbindelser og består af carbonhydrider med forskellig carbon kædelængde og struktur. Olie er en kompleks blanding af lineære og cykliske carbonhydrider. Gas består af alkaner med maximalt 4 carbon atomer."
             }]
         }, {
             "overskrift": ["3 Olie og gasdannelse"],
             "tab": [{
 
                 "pic": "animatedgif/bigGIFoliegasdannelse3_info.png",
-                "txt": "Når olien og gassen er dannet bevæger den sig op gennem reservoirbjergarten, da den har mindre massefylde end vand. Denne bevægelse kaldes migration. Hermed udfyldes porerne i havbundens bjergarter med olie i stedet for vand.<br/>Olien og gassen stoppes, hvis den møder en ikke permeabel bjergart. Det vil sige, at olien og gassen ikke kan trænge igennem bjergarten og derfor samles under denne."
+                "txt": " Når olien og gassen er dannet i kildebjergarten bevæger den sig op gennem reservoirbjergarten, da den har mindre massefylde end vand. Denne bevægelse kaldes migration. Hermed udfyldes porerne i havbundens bjergarter med olie i stedet for vand.<br/>Olien og gassen stoppes, hvis den møder en ikke permeabel bjergart. Det vil sige, at olien og gassen ikke kan trænge igennem bjergarten og derfor samles under denne."
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse3_kemi.png",
                 "txt": "Hvis man  leder efter olie, leder man efter specifikke lag i en bestemt rækkefølge:<li>Der skal først være aflejret en kildebjergart, der typisk består af lersten, skifer eller kalk. Kildebjergarten er den bjergart, der indeholder det organiske materiale, der omdannes til olie og gas.</li><li>Ovenpå skal der aflejres en reservoirbjergart, der kan bestå af kalk eller sandsten. Det der kendetegner reservoirbjergarten er, at den har en høj porøsitet, så den kan indeholde meget olie og gas, samt en høj permeabilitet, så olien og gassen kan passere igennem.</li> <li>Til sidst skal der være et segl, der er en ikke-permeabel bjergart, så olien og gassen tilbageholdes. Seglet består typisk af ler, skifer eller salt.</li>"
@@ -176,7 +176,7 @@
             "overskrift": [""],
             "tab": [{
                 "pic": "animatedgif/bigGIFindvinding_fossile_info.png",
-                "txt": "Olie og gas indvindes fra undergrunden både på land og til havs. De organiske afleveringer, der er dannet i vandområder, kan senere findes i et landområde pga. ændret havniveau og/eller sediment tilførsel. <br/>Kul brydes kun på land. I dag er der primært tale om åbne miner. Vi anvender hovedsageligt  kul til kraftværkerne, men der er ved at ske en omstilling til gas, der udleder mindre CO<sub>2</sub>.<br/>Olien anvendes til benzin, diesel, fyringsolie, plastic, asfalt mm. Når vi afbrænder fossile brændsler er det en øjeblikkelig reaktion, hvor der udledes CO<sub>2</sub>"
+                "txt": "Olie og gas indvindes fra undergrunden både på land og til havs. De organiske aflejringer, der er dannet i vandområder, kan senere findes i et landområde pga. ændret havniveau og/eller sediment tilførsel. <br/>Kul brydes kun på land. I dag er der primært tale om åbne miner. Vi anvender hovedsageligt  kul til kraftværkerne, men der er ved at ske en omstilling til gas, der udleder mindre CO<sub>2</sub>.<br/>Olien anvendes til benzin, diesel, fyringsolie, plastic, asfalt mm. Når vi afbrænder fossile brændsler er det en øjeblikkelig reaktion, hvor der udledes CO<sub>2</sub>"
             }, {
                 "pic": "animatedgif/bigGIFindvinding_fossile_kemi.png",
                 "txt": "Brændværdien af kul bestemmes af indholdet af kulstof pr. cm3. Jo større mængde kulstof desto højere brændværdi.<br/>Udnyttelsesgraden af olie afhænger af længden på de kulstofkæder der indgår. Kortere kæder er bedst, da længere kæder kræver større efterbehandling, for at kunne anvendes.<br/>Benzins forbrændingsreaktion: 2C<sub>8</sub>H<sub>18</sub>+25O<sub>2</sub> → 16CO<sub>2</sub>+18H<sub>2</sub>O<br/>Naturgas (metan) forbrændingsreaktion: CH<sub>4</sub> +  2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O <br/>    Kul forbrændingsreaktion: C+O<sub>2</sub> → CO<sub>2</sub>"
@@ -196,16 +196,16 @@
                 "txt": "I områder med stillestående vand som moser, søer og rismarker, kan der ske bakteriel nedbrydning af organisk materiale i et iltfrit miljø. Dette resulterer i metanafgivelse. Processens hastighed øges ved stigende temperatur. <br/>Der sker den samme proces i drøvtyggeres tarmsystem. Drøvtyggere som køer, geder og får frigiver metan i forbindelse med deres fordøjelse. Det sker under anaerobe forhold, og metanen kommer ud, når dyrene bøvser og prutter."
             }, {
                 "pic": "animatedgif/bigGIF_metan1_kemi.png",
-                "txt": "Ris dyrkes typisk i vanddækkede områder. Moser er ligeledes vegetationsdækkede områder med højt vandspejl. Da vandet er stillestående, tilføres der ikke ilt fra atmosfæren. Nedbrydningsprocessen vil derfor ske anaerobt: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O.<br/>I drøvtyggeres maver sker der, ved hjælp af mikroorganismer, en nedbrydning fra kulhydrater til metan i et anaerobt miljø: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O."
+                "txt": "Ris dyrkes typisk i vanddækkede områder. Moser er ligeledes vegetationsdækkede områder med højt vandspejl. Da vandet er stillestående, tilføres der ikke ilt fra atmosfæren. Der kan ske en videre omdannelse til metan i et anaerobt miljø: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O.<br/>I drøvtyggeres maver sker der, ved hjælp af mikroorganismer, en nedbrydning fra kulhydrater til metan i et anaerobt miljø: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O."
             }]
         }, {
             "overskrift": ["2 Metanudledning fra optøende moseområder"],
             "tab": [{
                 "pic": "animatedgif/bigGIF_metan2_info.png",
-                "txt": "I arktiske områder f.eks. Alaska og Sibirien er der store frosne moseområder. Så længe de er frosne er der ingen udledning, ved optøning begynder nedbrydningen og udledningen af metan. "
+                "txt": "I arktiske områder f.eks. Alaska og Sibirien er der store frosne mose og vådområder indeholdende methan. Så længe områderne er frosne er der ingen udsivning af methan; men ved stigende temperaturer frigøres methan til atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_metan2_kemi.png",
-                "txt": "Store dele af moseområderne er permefrosne. Dvs. det er kun det øverste lag (kaldet aktivlaget), der når at tø op om sommeren.  Resten kan være frosset ned til 2 km’s dybde hele året . <br/>Når der sker en optøning begynder nedbrydningen, der er beskrevet ved reaktionen: 4H<sub>2</sub> + CO<sub>2</sub> → CH<sub>4</sub> + 2H<sub>2</sub>O"
+                "txt": "Store dele af moseområderne er permafrosne. Dvs. det er kun det øverste lag (kaldet aktivlaget), der når at tø op om sommeren.  Resten kan være frosset ned til 2 km’s dybde hele året . <br/>Ved lave temperaturer og højt tryk danner methan molekylet sammen med vand en fast forbindelse, kaldet metanhydrat (CH<sub>4</sub>∙5.75 H<sub>2</sub>O). I Et methanhydrat kompleks er metan molekylet således omgivet af frosne vandmolekyler.  Når temperaturen stiger nedbydes methanhydrat og methan frigives."
             }]
         }]
     }, {
@@ -230,16 +230,16 @@
         "label_position": ["53", "85"],
 
         "simple_gif": "simplegif/fotosyntese_respiration_vandplanter.png",
-        "header": "Kulstofudveksling i havet",
+        "header": "Mekanisk og temperaturbestemt udveksling af kulstof mellem havet og atmosfæren",
 
         "slides": [{
             "overskrift": [""],
             "tab": [{
                 "pic": "animatedgif/bigGIF_havet1_info.png",
-                "txt": "Udvekslingen af kulstof mellem havet og atmosfæren sker på flere forskellige måder. Dels sker der en indpiskning af kuldioxid i havet sammen med ilt fra atmosfæren. Dels sker der en termisk og en biologisk udveksling.<br/>Indholdet af gasser i vand er afhængigt af temperaturen. Koldt vand kan indeholde flere gasser, det betyder at der optages mere CO<sub>2</sub> i kolde oceaner ved polerne, og der frigives CO<sub>2</sub> i varme oceaner ved Ækvator. Den CO<sub>2</sub> der optages i vandet befinder sig især i de øverste 400 m<br/>Når vandet fryser bliver gasser som CO<sub>2</sub> presset ud af det og bliver i det resterende havvand. Dette sker bl.a. ved Grønland, hvor gasserne forsvinder med det kolde vand ned i dybhavet. Når der smelter is om sommeren, så bliver vandet undermættet med CO<sub>2</sub> og kan derfor optage CO<sub>2</sub> fra atmosfæren."
+                "txt": "Udvekslingen af kulstof mellem havet og atmosfæren sker på flere forskellige måder. Dels sker der en indpiskning af kuldioxid i havet sammen med ilt fra atmosfæren. Dels sker der en temperaturbestemt og en biologisk udveksling.<br/>Indholdet af gasser i vand er afhængigt af temperaturen. Koldt vand kan indeholde flere gasser, det betyder at der optages mere CO<sub>2</sub> i kolde oceaner ved polerne, og der frigives CO<sub>2</sub> i varme oceaner ved Ækvator. Den CO<sub>2</sub> der optages i vandet befinder sig især i de øverste 400 m<br/>Når vandet fryser bliver gasser som CO<sub>2</sub> presset ud af det og bliver i det resterende havvand. Dette sker bl.a. ved Grønland, hvor gasserne forsvinder med det kolde vand ned i dybhavet. Når der smelter is om sommeren, så bliver vandet undermættet med CO<sub>2</sub> og kan derfor optage CO<sub>2</sub> fra atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_havet1_kemi.png",
-                "txt": "Oceanerne involverer en meget stor andel af kulstofudvekslingen i kredsløbet. Når temperaturen stiger i havet rykkes den termiske ligevægt og gasformer favoriseres. De frigives derfor, og det modsatte sker ved afkøling.<br/>Det meste kulstof i oceanerne findes i form af hydrogenkarbonat HCO3- (uorganisk kulstof) fordi CO<sub>2</sub> reagerer med H<sub>2</sub>O og danner H<sub>2</sub>CO<sub>3</sub><br/> CO<sub>2</sub> + H<sub>2</sub>O ↔ H<sub>2</sub>CO<sub>3</sub> ↔ H+ + HCO<sub>3</sub><sup>-</sup>, kun en lille andel er bundet i levende organismer."
+                "txt": "Oceanerne involverer en meget stor andel af kulstofudvekslingen i kredsløbet. Når temperaturen stiger i havet rykkes den termiske ligevægt og gas favoriseres. De frigives derfor, og det modsatte sker ved afkøling.<br/>Det meste kulstof i oceanerne findes i form af hydrogenkarbonat HCO3- (uorganisk kulstof) fordi CO<sub>2</sub> reagerer med H<sub>2</sub>O og danner H<sub>2</sub>CO<sub>3</sub><br/> CO<sub>2</sub> + H<sub>2</sub>O ↔ H<sub>2</sub>CO<sub>3</sub> ↔ H+ + HCO<sub>3</sub><sup>-</sup>, kun en lille andel er bundet i levende organismer."
             }]
         }]
     }]

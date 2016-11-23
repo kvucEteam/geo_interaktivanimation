@@ -163,6 +163,10 @@ function toogleZoomTab() {
 function zoomIn(e) {
 
     active_zoom_slide = 0;
+    tab_index = 0;
+    $(".nav-tabs").find("li").removeClass("active");
+    $(".nav-tabs").find("li").eq(0).addClass("active");
+    //aria-expanded="false"
 
     $(".png_overlay, .gif").fadeOut(300);
 
@@ -226,6 +230,8 @@ function clickedCarousel() {
 
     console.log("clickedCarousel");
 
+
+
     var carousel_length = jsonData.zoom_punkter[active_zoom].slides.length;
 
     var indeks = $(this).index(".carousel-control");
@@ -239,7 +245,9 @@ function clickedCarousel() {
     console.log("ass: " + active_zoom_slide + ", " + carousel_length);
 
     $(".zoom_expl").fadeOut(400, function() {
-
+        tab_index = 0;
+        $(".nav-tabs").find("li").removeClass("active");
+        $(".nav-tabs").find("li").eq(0).addClass("active");
         $(".zoom_pic").attr("src", jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].pic);
         $(".exp_header").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].overskrift);
         $(".exp_tekst").html(jsonData.zoom_punkter[active_zoom].slides[active_zoom_slide].tab[tab_index].txt);
