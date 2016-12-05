@@ -71,7 +71,12 @@ $(document).ready(function() {
         UserMsgBox("body", HTML);
     });
 
+// Prøver at tvinge ie til at have en fast højde: 
 
+//var png_height = $(".png_overlay").height();
+//console.log("OVERLAY HEIGHT " + png_height);
+
+//$(".landscape_container").css("height", "800px");
 });
 
 function init() {
