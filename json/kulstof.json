@@ -37,7 +37,7 @@
                 "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese. <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
             }, {
                 "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
-                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>0 + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>0 + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
+                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>O + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>O + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
             }]
         }]
     }, {
@@ -71,7 +71,7 @@
                 "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også i alger, svampe og bakterier. Respiration frigiver kulstof fra biosfæren til atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_respiration_kemi.png",
-                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H<sub>2</sub><sub>0</sub> + 6CO<sub>2</sub> + 30ATP"
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H<sub>2</sub><sub>O</sub> + 6CO<sub>2</sub> + 30ATP"
             }]
         }]
     }, {
@@ -122,10 +122,10 @@
             "overskrift": ["1 Aflejring af organisk lag i havet"],
             "tab": [{
                 "pic": "animatedgif/bigGIFoliegasdannelse1_info.png",
-                "txt": "Olie dannes typisk under havbunden. Udgangsmaterialet for olie er især mikroorganismerne alger og plankton. <br/>Processen starter med at der aflejres organismer på havbunden. Disse presses sammen i et sammenhængende lag i form af kalksten eller skifer, der indeholder store koncentrationer af organisk materiale."
+                "txt": "Olie dannes typisk under havbunden. Udgangsmaterialet for olie er især mikroorganismerne alger og dyreplankton. <br/>Processen starter med at der aflejres organismer på havbunden. Disse presses sammen i et sammenhængende lag i form af kalksten eller skifer, der indeholder store koncentrationer af organisk materiale."
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse1_kemi.png",
-                "txt": "Kulstoffet i alger, plankton og andre organismer aflejres på bunden af havet, hvor der er et meget lille iltindhold, og derfor er nedbrydningen langsom. Derfor ophobes det organiske lag på bunden. Der er typisk tale om kalklag og skifer; sammenpresset ler med et organisk indhold på 2-5%. Aflejringsprocessen tager flere tusinde år."
+                "txt": "Kulstoffet i alger, dyreplankton og andre organismer aflejres på bunden af havet, hvor der er et meget lille iltindhold, og derfor er nedbrydningen langsom. Derfor ophobes det organiske lag på bunden. Der er typisk tale om kalklag og skifer; sammenpresset ler med et organisk indhold på 2-5%. Aflejringsprocessen tager flere tusinde år."
             }]
         }, {
             "overskrift": ["2 Indsynkning - aflejring - oliedannelse"],
@@ -204,7 +204,7 @@
                 "pic": "animatedgif/bigGIF_metan2_info.png",
                 "txt": "I arktiske områder f.eks. Alaska og Sibirien er der store frosne mose og vådområder indeholdende methan. Så længe områderne er frosne er der ingen udsivning af methan; men ved stigende temperaturer frigøres methan til atmosfæren."
             }, {
-                "pic": "animatedgif/bigGIF_metan2_kemi.png",
+                "pic": "animatedgif/bigGIF_metan2_info.png",
                 "txt": "Store dele af moseområderne er permafrosne. Dvs. det er kun det øverste lag (kaldet aktivlaget), der når at tø op om sommeren.  Resten kan være frosset ned til 2 km’s dybde hele året . <br/>Ved lave temperaturer og højt tryk danner methan molekylet sammen med vand en fast forbindelse, kaldet metanhydrat (CH<sub>4</sub>∙5.75 H<sub>2</sub>O). I Et methanhydrat kompleks er metan molekylet således omgivet af frosne vandmolekyler.  Når temperaturen stiger nedbydes methanhydrat og methan frigives."
             }]
         }]
