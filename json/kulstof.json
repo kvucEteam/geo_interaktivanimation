@@ -19,7 +19,7 @@
         "label_position": ["17.8", "71.5"]
     }, {
         "label": "Litosfæren",
-        "txt": ["Bjergarter og fossile brændsler (kul, olie og gas)", "Kalk (CaCO<sub>3</sub>) <br>Råolie (C<sub>n</sub>H<sub>2n+2</sub>)<br/>Metan (CH<sub>4</sub>)<br/>Kul i mere eller mindre ren form (C)", "1700 Gt i dødt organisk materiale (tørv)<br/>5-7 x10 i 7 Gt i sedimenter<br/>4000 Gt fossile brændsler (1 Gt = 1 mia. tons)"],
+        "txt": ["Bjergarter og fossile brændsler (kul, olie og gas)", "Kalk (CaCO<sub>3</sub>) <br>Råolie (Carbonhydrider)<br/>Metan (CH<sub>4</sub>)<br/>Kul i mere eller mindre ren form (C)", "1700 Gt i dødt organisk materiale (tørv)<br/>5-7 x10 i 7 Gt i sedimenter<br/>4000 Gt fossile brændsler (1 Gt = 1 mia. tons)"],
         "label_position": ["62.8", "57.5"]
     }],
     "zoom_punkter": [{
@@ -37,7 +37,7 @@
                 "txt": "I kloroplasterne (grønkornene) i planteceller omdannes vand og kuldioxid vha. energi fra sollys til glukose og fri ilt. Rækken af processer hvor denne omdannelse sker kaldes fotosyntese. Fotosyntesen finder sted i planter og alger. I nogle bakterier foregår der også fotosyntese. <br/>I fotosyntesen  optages der kulstof fra atmosfæren i biosfæren."
             }, {
                 "pic": "animatedgif/bigGIFfotosyntese_kemi.png",
-                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>O + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub>O + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
+                "txt": "Fotosyntesen beskrives ved reaktionsligningen 6CO<sub>2</sub> + 12H<sub>2</sub>O + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub>+6H<sub>2</sub> + 6O<sub>2</sub>. <br/>Den inddeles i to dele: Lysprocessen og Calvins cyklus.<br/>Hastigheden af fotosyntesen er afhængig af flere forhold: Mængden af lys, kuldioxid og vand samt temperaturen. Optaget af CO<sub>2</sub> via fotosyntesen fra et givent område vil derfor variere på forskellige tider på døgnet og på forskellige årstider."
             }]
         }]
     }, {
@@ -51,7 +51,7 @@
             "overskrift": [""],
             "tab": [{
                 "pic": "animatedgif/bigGIFforvitringbjergarter_info.png",
-                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren."
+                "txt": "Ved forvitring af bjergarter bruges kulstof fra atmosfæren. Nedbrydningsprodukterne føres ud i havet. <br/>Ved processen føres der altså kulstof fra atmosfæren til hydrosfæren. Dette er en langsom proces der sker hele tiden."
             }, {
                 "pic": "animatedgif/bigGIFforvitringbjergarter_kemi.png",
                 "txt": "Forvitring af kalkbjergarter kan beskrives ved reaktionsligningen: CO<sub>2</sub> + H<sub>2</sub>O + CaCO<sub>3</sub> → Ca <sup>2+</sup> + 2HCO<sub>3</sub><sup>-</sup> <br/>Forvitring af calciumsilikatbjergarter kan beskrives ved reaktionsligningen: 2CO<sub>2</sub> + H<sub>2</sub>O + CaSiO<sub>3</sub> → Ca<sup>2+</sup>+2HCO<sub>3</sub><sup>-</sup> + SiO<sub>2</sub>"
@@ -71,7 +71,7 @@
                 "txt": "I mitokondrierne i dyre- og planteceller omdannes glukose og ilt til vand og kuldioxid samt energi. Processen hvor denne omdannelse sker kaldes respiration. Respiration finder sted i alle dyr og planter. Processen foregår også i alger, svampe og bakterier. Respiration frigiver kulstof fra biosfæren til atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_respiration_kemi.png",
-                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H<sub>2</sub><sub>O</sub> + 6CO<sub>2</sub> + 30ATP"
+                "txt": "Energien, der frigives ved nedbrydningen af glykose i respirationsprocessen, bindes i adenointriphosfat (ATP).<br/>Respirationen beskrives ved reaktionsligningen C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP+P) →  6H<sub>2</sub>O + 6CO<sub>2</sub> + 30ATP"
             }]
         }]
     }, {
@@ -108,7 +108,7 @@
                 "txt": "CO<sub>2</sub> fra den afgassede kalk og kommer ud på jordoverfladen og i atmosfæren ved et vulkanudbrud."
             }, {
                 "pic": "animatedgif/bigGIF_vulkan_udbrud_kemi.png",
-                "txt": "Der udledes CO<sub>2</sub> udledes fra vulkanudbruddet og bliver en del af atmosfæren. Lavaen eller andre vulkanske udbrudsprodukter indeholder ikke noget kulstof."
+                "txt": "Der udledes CO<sub>2</sub> fra vulkanudbruddet og bliver en del af atmosfæren. Lavaen eller andre vulkanske udbrudsprodukter indeholder ikke noget kulstof."
             }]
         }]
     }, {
@@ -132,17 +132,17 @@
             "tab": [{
 
                 "pic": "animatedgif/bigGIFoliegasdannelse2_info.png",
-                "txt": "Der aflejres 2-5 km sediment (f.eks. sand, ler og grus) ovenpå de sedimenter, der indeholder det organiske materiale, vil temperaturen stiger til 60-150<sup>°</sup>C. Dette medfører, at det organiske materiale kan omdannes til olie og/eller gas. "
+                "txt": "Aflejres 2-5 km sediment (f.eks. sand, ler og grus) ovenpå de sedimenter, der indeholder det organiske materiale, vil temperaturen stige til 60-150°C. Dette medfører, at det organiske materiale kan omdannes til olie og/eller gas."
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse2_kemi.png",
-                "txt": " Hvis havbunden strækkes udtyndes den, og derved sker der en indsynkning. Der aflejres erosionsmateriale ovenpå, så temperaturen og trykket stiger. Processen kan tage mio. af år.<br>Dybden det organiske lag begraves i og typen af det organiske materiale afgør, om der dannes olie eller gas. Der dannes olie i 2-5 km’s dybde og gas (f.eks. metan CH4) i 5-10 km’s dybde svarende til hhv. 60-150 grader C og 150-220 grader C. Ved større dybder omdannes det organiske lag til grafit (C). <br/>Dannelsen af olie og gas sker ved nedbrydning af alger og plantemateriale. Dele af disse organismer indeholder C-H forbindelser. Disse C-H forbindelser omstruktureres under anerobe betingelser til olie/gas . Olie og gas er organiske forbindelser og består af carbonhydrider med forskellig carbon kædelængde og struktur. Olie er en kompleks blanding af lineære og cykliske carbonhydrider. Gas består af alkaner med maximalt 4 carbon atomer."
+                "txt": " Hvis havbunden strækkes udtyndes den, og derved sker der en indsynkning. Der aflejres sedimenter ovenpå, så temperaturen og trykket stiger. Processen kan tage mio. af år.<br>Dybden det organiske lag begraves i og typen af det organiske materiale afgør, om der dannes olie eller gas. Der dannes olie i 2-5 km’s dybde og gas (f.eks. metan CH4) i 5-10 km’s dybde svarende til hhv. 60-150 grader C og 150-220 grader C. Ved større dybder omdannes det organiske lag til grafit (C). <br/>Dannelsen af olie og gas sker ved nedbrydning af alger og plantemateriale. Dele af disse organismer indeholder C-H forbindelser. Disse C-H forbindelser omstruktureres under anerobe betingelser til olie/gas . Olie og gas er organiske forbindelser og består af carbonhydrider med forskellig carbon kædelængde og struktur. Olie er en kompleks blanding af lineære og cykliske carbonhydrider. Gas består af alkaner med maximalt 4 carbon atomer."
             }]
         }, {
             "overskrift": ["3 Olie og gasdannelse"],
             "tab": [{
 
                 "pic": "animatedgif/bigGIFoliegasdannelse3_info.png",
-                "txt": " Når olien og gassen er dannet i kildebjergarten bevæger den sig op gennem reservoirbjergarten, da den har mindre massefylde end vand. Denne bevægelse kaldes migration. Hermed udfyldes porerne i havbundens bjergarter med olie i stedet for vand.<br/>Olien og gassen stoppes, hvis den møder en ikke permeabel bjergart. Det vil sige, at olien og gassen ikke kan trænge igennem bjergarten og derfor samles under denne."
+                "txt": " Når olien og gassen er dannet i kildebjergarten bevæger den sig op gennem reservoirbjergarten, da den har mindre massefylde end vand. Denne bevægelse kaldes migration. Hermed udfyldes porerne i havbundens bjergarter med olie i stedet for vand.<br/>Olien og gassen stoppes, hvis den møder en ikke permeabel bjergart. Det vil sige, at olien og gassen ikke kan trænge igennem bjergarten og derfor samles under denne.<br/>Hele processen fra aflejring af kildebjergart til olie tager mindst 10.000 år og typisk millioner af år."
             }, {
                 "pic": "animatedgif/bigGIFoliegasdannelse3_kemi.png",
                 "txt": "Hvis man  leder efter olie, leder man efter specifikke lag i en bestemt rækkefølge:<li>Der skal først være aflejret en kildebjergart, der typisk består af lersten, skifer eller kalk. Kildebjergarten er den bjergart, der indeholder det organiske materiale, der omdannes til olie og gas.</li><li>Ovenpå skal der aflejres en reservoirbjergart, der kan bestå af kalk eller sandsten. Det der kendetegner reservoirbjergarten er, at den har en høj porøsitet, så den kan indeholde meget olie og gas, samt en høj permeabilitet, så olien og gassen kan passere igennem.</li> <li>Til sidst skal der være et segl, der er en ikke-permeabel bjergart, så olien og gassen tilbageholdes. Seglet består typisk af ler, skifer eller salt.</li>"
@@ -179,7 +179,7 @@
                 "txt": "Olie og gas indvindes fra undergrunden både på land og til havs. De organiske aflejringer, der er dannet i vandområder, kan senere findes i et landområde pga. ændret havniveau og/eller sediment tilførsel. <br/>Kul brydes kun på land. I dag er der primært tale om åbne miner. Vi anvender hovedsageligt  kul til kraftværkerne, men der er ved at ske en omstilling til gas, der udleder mindre CO<sub>2</sub>.<br/>Olien anvendes til benzin, diesel, fyringsolie, plastic, asfalt mm. Når vi afbrænder fossile brændsler er det en øjeblikkelig reaktion, hvor der udledes CO<sub>2</sub>"
             }, {
                 "pic": "animatedgif/bigGIFindvinding_fossile_kemi.png",
-                "txt": "Brændværdien af kul bestemmes af indholdet af kulstof pr. cm3. Jo større mængde kulstof desto højere brændværdi.<br/>Udnyttelsesgraden af olie afhænger af længden på de kulstofkæder der indgår. Kortere kæder er bedst, da længere kæder kræver større efterbehandling, for at kunne anvendes.<br/>Benzins forbrændingsreaktion: 2C<sub>8</sub>H<sub>18</sub>+25O<sub>2</sub> → 16CO<sub>2</sub>+18H<sub>2</sub>O<br/>Naturgas (metan) forbrændingsreaktion: CH<sub>4</sub> +  2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O <br/>    Kul forbrændingsreaktion: C+O<sub>2</sub> → CO<sub>2</sub>"
+                "txt": "Brændværdien af kul bestemmes af indholdet af kulstof pr. cm<sup>3</sup>. Jo større mængde kulstof desto højere brændværdi.<br/>Udnyttelsesgraden af olie afhænger af længden på de kulstofkæder der indgår. Kortere kæder er bedst, da længere kæder kræver større efterbehandling, for at kunne anvendes.<br/>Benzins forbrændingsreaktion: 2C<sub>8</sub>H<sub>18</sub>+25O<sub>2</sub> → 16CO<sub>2</sub>+18H<sub>2</sub>O<br/>Naturgas' (metans) forbrændingsreaktion: CH<sub>4</sub> +  2O<sub>2</sub> → CO<sub>2</sub> + 2H<sub>2</sub>O <br/> Kuls forbrændingsreaktion: C+O<sub>2</sub> → CO<sub>2</sub>"
             }]
         }]
     }, {
@@ -239,7 +239,16 @@
                 "txt": "Udvekslingen af kulstof mellem havet og atmosfæren sker på flere forskellige måder. Dels sker der en indpiskning af kuldioxid i havet sammen med ilt fra atmosfæren. Dels sker der en temperaturbestemt og en biologisk udveksling.<br/>Indholdet af gasser i vand er afhængigt af temperaturen. Koldt vand kan indeholde flere gasser, det betyder at der optages mere CO<sub>2</sub> i kolde oceaner ved polerne, og der frigives CO<sub>2</sub> i varme oceaner ved Ækvator. Den CO<sub>2</sub> der optages i vandet befinder sig især i de øverste 400 m<br/>Når vandet fryser bliver gasser som CO<sub>2</sub> presset ud af det og bliver i det resterende havvand. Dette sker bl.a. ved Grønland, hvor gasserne forsvinder med det kolde vand ned i dybhavet. Når der smelter is om sommeren, så bliver vandet undermættet med CO<sub>2</sub> og kan derfor optage CO<sub>2</sub> fra atmosfæren."
             }, {
                 "pic": "animatedgif/bigGIF_havet1_kemi.png",
-                "txt": "Oceanerne involverer en meget stor andel af kulstofudvekslingen i kredsløbet. Når temperaturen stiger i havet rykkes den termiske ligevægt og gas favoriseres. De frigives derfor, og det modsatte sker ved afkøling.<br/>Det meste kulstof i oceanerne findes i form af hydrogenkarbonat HCO3- (uorganisk kulstof) fordi CO<sub>2</sub> reagerer med H<sub>2</sub>O og danner H<sub>2</sub>CO<sub>3</sub><br/> CO<sub>2</sub> + H<sub>2</sub>O ↔ H<sub>2</sub>CO<sub>3</sub> ↔ H+ + HCO<sub>3</sub><sup>-</sup>, kun en lille andel er bundet i levende organismer."
+                "txt": "Oceanerne involverer en meget stor andel af kulstofudvekslingen i kredsløbet. Når temperaturen stiger i havet rykkes den termiske ligevægt og gasser favoriseres. De frigives derfor, og det modsatte sker ved afkøling.<br/>Det meste kulstof i oceanerne findes i form af hydrogenkarbonat HCO3<sup>-</sup> (uorganisk kulstof) fordi CO<sub>2</sub> reagerer med H<sub>2</sub>O og danner H<sub>2</sub>CO<sub>3</sub><br/> CO<sub>2</sub> + H<sub>2</sub>O ↔ H<sub>2</sub>CO<sub>3</sub> ↔ H<sup>+</sup> + HCO<sub>3</sub><sup>-</sup>, kun en lille andel er bundet i levende organismer."
+            }]
+        }, {
+            "overskrift": [""],
+            "tab": [{
+                "pic": "animatedgif/bigGIF_havet2_info.png",
+                "txt": "Der sker et optag af CO<sub>2</sub> via fotosyntese fra alger i overfladen. Algerne kan enten nedbrydes og afgive CO<sub>2</sub> til atmosfæren eller de kan blive spist og indgå i en fødekæde, hvor kulstoffet overføres til andre organismer f.eks. fisk. <br/>Alle levende organismer respirerer og udsender CO<sub>2</sub>, dette gælder også i havet. CO<sub>2</sub> kan enten optages i havet eller blive sendt ud i atmosfæren. Døde organismer kan også bundfældes og senere indgå i bjergartsdannelse af f.eks. skifer og kalk, eller opløses i oceanerne."
+            }, {
+                "pic": "animatedgif/bigGIF_havet2_kemi.png",
+                "txt": "Algerne kan optage CO<sub>2</sub> via fotosyntesen: 6CO<sub>2</sub> + 12H20 + lysenergi → C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6H<sub>2</sub>0 + 6O<sub>2</sub><br>Når algerne eller de dyr, der har spist algerne, respirerer så udledes CO<sub>2</sub> til havet via respirationen: C<sub>6</sub>H<sub>12</sub>O<sub>6</sub> + 6O<sub>2</sub> + 30(ADP + P) →  6H<sub>2</sub>0 + 6CO<sub>2</sub> + 30ATP"
             }]
         }]
     }]
