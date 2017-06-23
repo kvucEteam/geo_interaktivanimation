@@ -42,7 +42,7 @@ $(document).ready(function() {
 
     init();
 
-    $('.btn_info_gfx').on('click touchstart', function(e) {
+    /*$('.btn_info_gfx').on('click touchstart', function(e) {
 
         active_zoom = $('.btn_info_gfx').index(this)
             //        active_zoom = $(this).index("detalje_label");
@@ -56,7 +56,7 @@ $(document).ready(function() {
             zoomIn(touch);
             console.log('Touch: ' + touch);
         }
-    });
+    });*/
 
     $(".sfaerer_label").on('click touchstart', function(e) {
         console.log("Clicked sfaerer_knap");
@@ -77,6 +77,11 @@ $(document).ready(function() {
 //console.log("OVERLAY HEIGHT " + png_height);
 
 //$(".landscape_container").css("height", "800px");
+
+   $(".detalje_label").click(function() {
+        microhint($(this), "En længere klamamse om historien bag microhints og mange tilsvarende spændende ting og sager.", "red");
+
+    });
 });
 
 function init() {
